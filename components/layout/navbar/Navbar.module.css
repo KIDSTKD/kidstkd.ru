@@ -1,0 +1,136 @@
+.navbar {
+    grid-area: navbar;
+    width: 100%;
+    height: 116px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar a {
+    padding-left: 20px;
+    line-height: 116px;
+    color: var(--textdark);
+    font-family: bebas_neuelight;
+    font-size: 26px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+.navbar a:hover {
+    text-shadow: var(--textdark) 3px 3px 5px;
+}
+
+.navbar__text {
+    height: 100%;
+}
+
+
+.navbar input {
+    flex: 2;
+    height: 30px;
+    margin-left: 40px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    font-family: exo_2regular_condensed;
+    font-size: 1em;
+    color: #393939;
+}
+
+  .header__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5px;
+    gap: 10px;
+  }
+
+  .search {
+    background: var(--deepblue);
+    border-radius: 50%;
+    cursor: pointer;
+
+    background-image: url("../../../src/icons/ic_search_filled.svg");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 36px;
+    height: 36px;
+}
+.search:hover, .home_pressed {
+    opacity: .9;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+.mail {
+    background: var(--deepblue);
+    border-radius: 50%;
+    cursor: pointer;
+
+    background-image: url("../../../src/icons/ic_mail_filled.svg");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 36px;
+    height: 36px;
+}
+.mail:hover, .home_pressed {
+    opacity: .7;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+.inst {
+    background: var(--deepblue);
+    border-radius: 50%;
+    cursor: pointer;
+
+    background-image: url("../../../src/icons/ic_instagram_filled.svg");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 36px;
+    height: 36px;
+}
+.inst:hover, .home_pressed {
+    opacity: .7;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+.youtube {
+    background: var(--deepblue);
+    border-radius: 50%;
+    cursor: pointer;
+
+    background-image: url("../../../src/icons/ic_youtube_filled.svg");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 36px;
+    height: 36px;
+}
+.youtube:hover, .home_pressed {
+    opacity: .7;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+  
+  @media (max-width: 1080px) {  
+    .navbar__text {
+        display: none;
+    }
+  }
+
+@media (orientation: portrait) {  
+    .navbar {
+        display: none;
+    }
+  }
+
+

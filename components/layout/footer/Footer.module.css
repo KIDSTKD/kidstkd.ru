@@ -1,0 +1,19 @@
+.footer {
+    grid-area: footer;
+    font-size: 26px;
+    background-color: var(--deepblue);
+    color: var(--textlight);
+    text-align: center;
+    font-family: bebas_neuelight;
+    line-height: 70px;
+
+
+}
+
+
+@media screen and (orientation: portrait) {  
+    .footer {
+        display: none;
+    }
+  
+  }

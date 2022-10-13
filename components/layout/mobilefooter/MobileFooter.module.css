@@ -1,0 +1,77 @@
+.mobile_footer {
+    display: none;
+}
+
+.home {
+    background-image: url("../../../src/icons/ic_home_blank.svg");
+    width: 36px;
+    height: 36px;
+}
+.home:hover, .home_pressed {
+    width: 36px;
+    height: 36px;
+    background-image: url("../../../src/icons/ic_home_filled.svg");
+
+}
+
+
+
+.bookmark {
+    background-image: url("../../../src/icons/ic_bookmark_blank.svg");
+    width: 36px;
+    height: 36px;
+}
+.bookmark:hover, .bookmark_pressed {
+    width: 36px;
+    height: 36px;
+    background-image: url("../../../src/icons/ic_bookmark_filled.svg");
+}
+
+.menu {
+    background-image: url("../../../src/icons/ic_menu_blank.svg");
+    width: 36px;
+    height: 36px;
+}
+.menu:hover, .menu_pressed {
+    width: 36px;
+    height: 36px;
+    background-image: url("../../../src/icons/ic_menu_filled.svg");
+}
+
+.search {
+    background-image: url("../../../src/icons/ic_search_blank.svg");
+    width: 36px;
+    height: 36px;
+}
+.search:hover, .search_pressed {
+    width: 36px;
+    height: 36px;
+    background-image: url("../../../src/icons/ic_search_filled.svg");
+}
+
+.settings {
+    background-image: url("../../../src/icons/ic_settings_blank.svg");
+    width: 36px;
+    height: 36px;
+}
+.settings:hover, .settings_pressed {
+    width: 36px;
+    height: 36px;
+    background-image: url("../../../src/icons/ic_settings_filled.svg");
+}
+
+@media screen and (orientation: portrait) {  
+    .mobile_footer {
+        grid-area: mobile_footer;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: var(--deepblue);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+  
+  }

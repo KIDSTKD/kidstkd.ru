@@ -1,0 +1,31 @@
+.month {
+    width: auto;
+    padding-left: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: bebas_neuelight;
+    font-size: 28px;
+    color: var(--textdark);
+    text-align: left;
+    background: var(--textlight);
+    opacity: 0.6;
+}
+
+
+.event {
+    transition: all 0.3s ease-in-out;
+}
+
+.event:hover {
+    border-left: solid;
+    border-color: var(--deepblue);
+    border-width: 5px;
+    margin-left: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.etc {
+    color: #616161;
+    font-style: italic;
+    line-height: 0px;
+}
