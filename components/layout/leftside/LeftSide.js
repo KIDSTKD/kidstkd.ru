@@ -69,31 +69,31 @@ const LeftSide = () => {
                 <div className={pathname.includes(path) ? styles.display : styles.invisible}>
                
                 {AboutLink.map(({ title2, path2 }) => ( 
-                    <Link href={path2}>
+                    <Link key={id} href={path2}>
                     <p className={pathname.includes('01-about') ? styles.left_item_second_level : styles.invisible}>{title2}</p>
                     </Link>
                 ))}
 
                 {DocsLink.map(({ title2, path2 }) => (
-                   <Link href={path2}>
+                   <Link key={id} href={path2}>
                     <p className={pathname.includes('02-docs') ? styles.left_item_second_level : styles.invisible}>{title2}</p>
                    </Link>
                ))}
 
                 {NewsLink.map(({ title2, path2 }) => (
-                   <Link href={path2}>
+                   <Link key={id} href={path2}>
                     <p className={pathname.includes('03-news') ? styles.left_item_second_level : styles.invisible}>{title2}</p>
                    </Link>
                ))}
 
                 {CalendarLink.map(({ title2, path2 }) => (  
-                   <Link href={path2}>
+                   <Link key={id} href={path2}>
                     <p className={pathname.includes('04-calendar') ? styles.left_item_second_level : styles.invisible}>{title2}</p>
                    </Link>
                ))}
 
                 {TaekwondoLink.map(({ title2, path2 }) => (
-                   <Link href={path2}>
+                   <Link key={id} href={path2}>
                    <p className={pathname === "/05-taekwondo" ? styles.left_item_second_level : styles.invisible}>{title2}</p>
                    </Link>
                ))}
