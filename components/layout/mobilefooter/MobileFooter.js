@@ -9,7 +9,7 @@ const navigation = [
     { id: 2, title: 'bookmark', title2: 'bookmark_pressed', path: '/01_about' },
     { id: 3, title: 'menu', title2: 'menu_pressed', path: '/02' },
     { id: 4, title: 'search', title2: 'search_pressed', path: '/03' },
-    { id: 5, title: 'settings', title2: 'settings_pressed', path: '/04' }
+    { id: 5, title: 'settings', title2: 'settings_pressed', path: '/07-contacts' }
 ];
 
 
