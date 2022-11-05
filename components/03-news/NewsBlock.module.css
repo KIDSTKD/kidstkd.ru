@@ -70,7 +70,6 @@
         font-family: bebas_neuelight;
         font-size: 28px;
         color: var(--textdark);
-        background-color: aquamarine;
 
       }
       .news_p {
@@ -79,7 +78,6 @@
         height: 100px;
         padding: 0;
         margin: 0;
-        background-color: antiquewhite;
         }
 
     }
