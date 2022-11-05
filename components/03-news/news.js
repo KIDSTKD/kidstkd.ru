@@ -10,7 +10,7 @@ const NewsBlock = () => {
 
         <div className={styles.news}>
                 
-            <div className={styles.news_img}><Image src={path} objectFit='cover' layout='fill' /></div>
+            <div className={styles.news_img}><Image src={path} objectFit='cover' layout='fill' key={id}/></div>
             <div className={styles.news_header}>{title}</div>
             <div className={styles.news_p}><p>{p}</p></div>
             
