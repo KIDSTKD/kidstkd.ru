@@ -29,7 +29,7 @@ const Navbar = () => {
 
 
                     <div className={styles.header__icons}>
-                {navigation_top.map(({ id, title, path, submenu }) => (
+                {navigation_top.map(({ id, title, path }) => (
                     <Link key={id} href={path}>
                         <div className={styles[title]}></div>
                     </Link>
