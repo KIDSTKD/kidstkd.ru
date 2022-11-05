@@ -75,6 +75,17 @@ h1 {
   padding-left: 40px;
 }
 
+h2 {
+	font-family: bebas_neuelight;
+  color: var(--textdark);
+	font-size:32px;
+	font-weight: 100;
+	line-height:36px;
+  padding-left: 40px;
+  text-align: center;
+
+}
+
 h3 {
   font-family: bebas_neue_regularregular;
   color: var(--textdark);
