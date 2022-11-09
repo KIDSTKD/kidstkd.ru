@@ -2,7 +2,7 @@ import styles from "../03-news/NewsBlock.module.css"
 import Image from "next/image";
 import Link from "next/link";
 
-import News22 from "../03-news/data/2022.js"
+import News22 from "./data/2022.js"
 
 
 const NewsBlock = () => {

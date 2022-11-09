@@ -38,6 +38,17 @@
 
     }
 
+    .news_logo {
+      width: 320px;
+      height: 240px;
+      position: relative;
+      float: right;
+      margin: 5px;
+    }
+    
+    
+    
+
     @media screen and (orientation: portrait) {  
       .news {
         width: 100%;
@@ -80,4 +91,11 @@
         margin: 0;
         }
 
+        .news_logo {
+          width: 100%;
+          position: relative;
+        }
+
     }
+
+ 
