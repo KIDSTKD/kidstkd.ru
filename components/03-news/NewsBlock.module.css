@@ -30,6 +30,9 @@
     padding-left: 25px;
     margin-left: 20px;
     margin-right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
   }
   .news_p {
     grid-area: p;
@@ -79,10 +82,10 @@
       .news_header {
         grid-area: header;
         font-family: bebas_neuelight;
-        font-size: 28px;
+        font-size: 28px;      
         color: var(--textdark);
-
       }
+      
       .news_p {
         grid-area: p;
         overflow-y: hidden;
