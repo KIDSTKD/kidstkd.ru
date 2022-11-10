@@ -1,9 +1,15 @@
 .logo {
     grid-area: logo;
-    background-image: url(/img/logo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 116px;
     background-color: var(--deepblue);
+    position: relative;
     cursor: pointer;
+}
+
+@media screen and (orientation: portrait) {  
+    .logo {
+        height: 180px;
+
+    }
+
 }
