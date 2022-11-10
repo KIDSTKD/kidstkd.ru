@@ -81,8 +81,9 @@
 
       .news_header {
         grid-area: header;
+        height: 40px;
         font-family: bebas_neuelight;
-        font-size: 28px;      
+        font-size: 28px;   
         color: var(--textdark);
       }
       
