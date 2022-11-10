@@ -2,14 +2,14 @@ import styles from "../03-news/NewsBlock.module.css"
 import Image from "next/legacy/image";
 import Link from "next/link";
 
-import News22 from "./data/2022.js"
+import News21 from "./data/2020.js"
 
 
 const NewsBlock = () => {
     return (
         <> 
                
-        {News22.map(({id, path, title, p, link}) => (
+        {News21.map(({id, path, title, p, link}) => (
             
             <Link key={id} href={link}> 
 

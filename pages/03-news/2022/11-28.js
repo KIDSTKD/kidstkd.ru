@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Heading from '../../../components/Heading'
-import Image from 'next/image'
+import Image from "next/legacy/image";
 import styles from '../../../components/03-news/NewsBlock.module.css'
 
 
@@ -12,7 +12,7 @@ const News1 = () => (
     <Heading text="28 ноября 2022 - Кубок Приморского края, г. Владивосток" />
 
     <div className={styles.news_logo}>
-        <Image src='/img/03/2022/11/28/01.jpg' objectFit='cover' layout='fill'/>
+        <Image src='/img/03/2022/11/28/01.jpg' objectFit='cover' layout='fill' alt='28 ноября 2022 - Кубок Приморского края, г. Владивосток'/>
     </div>
 
     
