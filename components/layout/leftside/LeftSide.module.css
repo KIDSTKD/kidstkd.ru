@@ -76,7 +76,7 @@
         opacity: 0.97;
     }
 
-    .left_side:hover {
+    .left_side:active {
         left: -70%;
     }
  
