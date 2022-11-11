@@ -6,9 +6,9 @@ import NewsBlock from '../../components/03-news/news20'
 const News = () => (
   <>
    <Head>
-    <title>KIDSTKD - Новости</title>
+    <title>KIDSTKD - Новости 2020</title>
    </Head>
-    <Heading text="Новости" />
+    <Heading text="Новости 2020" />
     <NewsBlock />
 
   
