@@ -67,7 +67,7 @@
 
 @media (orientation: portrait) {  
     .left_side {
-        position: absolute;
+        position: fixed;
         width: 70%;
         height: calc(100% - 76px);
         top: 0px;
@@ -75,6 +75,11 @@
         z-index: 1;
         opacity: 0.97;
     }
+
+    .left_side:hover {
+        left: -70%;
+    }
+ 
 
 
 
