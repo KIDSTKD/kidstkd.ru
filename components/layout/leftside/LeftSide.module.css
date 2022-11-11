@@ -69,7 +69,7 @@
     .left_side {
         position: fixed;
         width: 70%;
-        height: calc(100% - 76px);
+        height: 100%;
         top: 0px;
         left: 0px;
         z-index: 1;
