@@ -65,7 +65,9 @@
 }
 
 
-@media (orientation: portrait) {  
+
+
+  @media (orientation: portrait) {  
     .left_side {
         position: fixed;
         width: 70%;
