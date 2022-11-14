@@ -9,14 +9,14 @@ const NewsBlock = () => {
     return (
         <> 
                
-        {News21.map(({id, path, title, p, link}) => (
+               {News21.map(({id, path, date, place, title, p, link}) => (
             
             <Link key={id} href={link}> 
 
         <div className={styles.news}>
             
             <div className={styles.news_img}><Image src={path} objectFit='cover' layout='fill' alt={title}/></div>
-            <div className={styles.news_header}>{title}</div>
+            <div className={styles.news_header}>{date} - {title} ({place})</div>
             <div className={styles.news_p}><p>{p}</p></div> 
         </div>
         </Link>

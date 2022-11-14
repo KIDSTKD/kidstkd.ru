@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import Heading from '../../components/Heading'
-import NewsBlock from '../../components/03-news/news'
+import NewsBlock from '../../components/03-news/news22'
 
 const News = () => (
   <>
