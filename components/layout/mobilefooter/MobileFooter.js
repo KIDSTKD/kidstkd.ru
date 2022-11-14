@@ -13,11 +13,17 @@ const navigation = [
 ];
 
 
+
 const MobileFooter = () => {
+
+
 
     const { pathname } = useRouter();
 
+
+
     return (
+        
         <>
 
             <div className={styles.mobile_footer}>
@@ -33,8 +39,12 @@ const MobileFooter = () => {
             </div>
 
         </>
+
+        
     );
 }
+
+
 
 export default MobileFooter
 
