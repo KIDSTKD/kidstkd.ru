@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 
+import LeftSideM from "../leftside/LeftSideM";
 import styles from "../mobilefooter/MobileFooter.module.css"
 import Link from "next/link";
 
@@ -21,14 +22,32 @@ const MobileFooter = () => {
     const { pathname } = useRouter();
 
 
+    function menuOpen () {
+
+    }
 
     return (
         
         <>
+            
 
             <div className={styles.mobile_footer}>
 
-                <div className={styles.menu}></div>
+
+
+                    <div className={styles.menu}>
+
+                        <div className={styles.hidden_menu}>
+                            <LeftSideM />
+                        </div>
+
+                    </div>
+
+         
+                
+
+
+
     
                 {navigation.map(({ id, title, title2, path }) => (
 

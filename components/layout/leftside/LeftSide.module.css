@@ -68,15 +68,20 @@
 
 
   @media (orientation: portrait) {  
+
+
     .left_side {
-        position: fixed;
+        position: absolute;
         width: 70%;
         height: 100%;
+        left: 0px;
         top: 0px;
         left: -70%;
         z-index: 1;
         opacity: 0.97;
     }
+
+
 
  
 
