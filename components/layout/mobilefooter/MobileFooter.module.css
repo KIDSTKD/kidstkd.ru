@@ -72,13 +72,13 @@
         justify-content: space-around;
         padding-top: 13px;
         padding-bottom: 13px;
-        z-index: 9;
     }
    
     .hidden_menu {
         position: absolute;
         top: 0px;
         left: -70%;
+        z-index: -1;
     }
 
     .menu:hover .hidden_menu {
