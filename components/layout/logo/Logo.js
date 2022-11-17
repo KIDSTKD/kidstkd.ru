@@ -7,7 +7,7 @@ const Logo = () => (
     <>
     <Link href="/">
         <div className={styles.logo}>
-        <Image src='/img/logo.png' objectFit='contain' layout='fill' alt="Тхэквондо в Уссурийске["/>
+        <Image src='/img/logo.png' objectFit='contain' layout='fill' alt="Тхэквондо в Уссурийске"/>
         </div>
     </Link>
     </>
