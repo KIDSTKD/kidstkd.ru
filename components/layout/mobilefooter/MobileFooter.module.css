@@ -63,20 +63,20 @@
 @media screen and (orientation: portrait) {  
     .mobile_footer {
         grid-area: mobile_footer;
-        position: fixed;
+        position: absolute;
         bottom: 0;
         width: 100%;
         background-color: var(--deepblue);
         display: flex;
         align-items: center;
         justify-content: space-around;
-        padding-top: 23px;
-        padding-bottom: 23px;
+        padding-top: 13px;
+        padding-bottom: 13px;
         z-index: 9;
     }
    
     .hidden_menu {
-        position: fixed;
+        position: absolute;
         top: 0px;
         left: -70%;
     }
@@ -97,7 +97,7 @@
     .left_side {
         background-color: var(--deepblue);
         color: var(--textlight);
-        height: calc(100vh - 70px);
+        height: calc(100vh - 56px);
         width: calc(100vh * 0.3);
         opacity: 0.97;
         z-index: 8;
