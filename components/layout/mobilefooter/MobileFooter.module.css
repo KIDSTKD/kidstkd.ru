@@ -72,7 +72,7 @@
         justify-content: space-around;
         padding-top: 20px;
         padding-bottom: 20px;
-        z-index: 2;
+        z-index: 9;
     }
    
     .hidden_menu {
@@ -95,7 +95,7 @@
     .left_side {
         background-color: var(--deepblue);
         color: var(--textlight);
-        height: calc(100vh - 56px);
+        height: calc(100vh - 70px);
         width: calc(100vh * 0.3);
         opacity: 0.97;
     }
