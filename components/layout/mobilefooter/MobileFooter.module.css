@@ -98,7 +98,7 @@
         background-color: var(--deepblue);
         color: var(--textlight);
         height: calc(100vh - 56px);
-        width: calc(100vh * 0.3);
+        width: calc(100vw * 0.7);
         opacity: 0.97;
         z-index: 8;
     }

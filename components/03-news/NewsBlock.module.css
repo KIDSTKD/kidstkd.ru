@@ -55,15 +55,14 @@
     @media screen and (orientation: portrait) {  
       .news {
         width: 100%;
-        min-height: 400px;
+        min-height: 370px;
         border-bottom-style: inset;
         border-bottom-color: #dceffd;
         margin: 0;
         padding: 0;
-        padding-bottom: 20px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 200px 10px 100px;
+        grid-template-rows: 260px 40px 100px;
         grid-template-areas: 
         "img"
         "header"
@@ -81,10 +80,16 @@
 
       .news_header {
         grid-area: header;
+        background-color: var(--textlight);
+        opacity: 80%;
         height: 40px;
+        margin: 0px;
         font-family: bebas_neuelight;
         font-size: 28px;  
+        line-height: 40px;
         color: var(--textdark);
+        position: relative;
+        top: -40px
       }
       
       .news_p {
@@ -93,6 +98,8 @@
         height: 100px;
         padding: 0;
         margin: 0;
+        position: relative;
+        top: -40px;
         }
 
         .news_logo {

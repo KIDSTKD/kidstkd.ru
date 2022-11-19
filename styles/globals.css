@@ -106,7 +106,16 @@ h4 {
 :root {
   --deepblue: #255d98;
   --lightblue: #8fb8d8;
-  --textdark: #393939;
+  --textdark: #151718;
   --textlight: #d9ebf4;
 }
 
+@media screen and (orientation: portrait) {  
+
+  h1 {
+    text-align: left;
+    padding-left: 40px;
+  
+  }
+
+}
