@@ -1,6 +1,7 @@
 .left_side {
     grid-area: left_side;
-    height: 100vh;
+    min-height: calc(100vh - 186px);
+    max-height: 100vh;
     background-color: var(--deepblue);
     color: var(--textlight);
     position: sticky;

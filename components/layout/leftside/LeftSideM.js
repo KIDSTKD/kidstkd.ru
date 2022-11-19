@@ -4,54 +4,15 @@ import styles from "../mobilefooter/MobileFooter.module.css"
 import Link from "next/link";
 
 import { SidebarData } from "./sidebarData";
+import { AboutLink } from "./sidebarData";
+import { DocsLink } from "./sidebarData";
+import { NewsLink } from "./sidebarData";
+import { CalendarLink } from "./sidebarData";
+import { TaekwondoLink } from "./sidebarData";
 
 
-const AboutLink = [
-    {title2: "Куда отдать ребенка?", path2: "/01-about-us/01"},
-    {title2: "Тхэквондо для детей", path2: "/01-about-us/02"},
-    {title2: "Аттестация", path2: "/01-about-us/03"},
-    {title2: "УОЛ и УТМ", path2: "/01-about-us/04"},
-    {title2: "Расписание занятий", path2: "/01-about-us/05"},
-    {title2: "Тренерский коллектив", path2: "/01-about-us/06"}
-]
 
-const DocsLink = [
-    {title2: "Федеральные законы", path2: "/02-docs/01"},
-    {title2: "Указы, распоряжеиня, постановления", path2: "/02-docs/02"},
-    {title2: "Приказы минспорта РФ", path2: "/02-docs/03"},
-    {title2: "Документы СТР", path2: "/02-docs/04"},
-    {title2: "Приказы Минспорта ПК", path2: "/02-docs/05"},
-    {title2: "Правила соревнований", path2: "/02-docs/06"},
-    {title2: "Положение и протоколы", path2: "/02-docs/07"},
-    {title2: "Прочее", path2: "/02-docs/08"},
 
-]
-
-const NewsLink = [
-    {title2: "2022", path2: "/03-news/2022"},
-    {title2: "2021", path2: "/03-news/2021"},
-    {title2: "2020", path2: "/03-news/2020"},
-    {title2: "2019", path2: "/03-news/2019"},
-    {title2: "...архив...", path2: "/"},
-]
-
-const CalendarLink = [
-    {title2: "2022", path2: "/04-calendar/2022"},
-    {title2: "2021", path2: "/04-calendar/2021"},
-    {title2: "2020", path2: "/04-calendar/2020"},
-    {title2: "2019", path2: "/04-calendar/2019"},
-    {title2: "...архив...", path2: "/04-calendar/archive"},
-]
-
-const TaekwondoLink = [
-    {title2: "Что такое тхэквондо", path2: "/"},
-    {title2: "История тхэквондо", path2: "/"},
-    {title2: "Терминология", path2: "/"},
-    {title2: "Правила соревнований", path2: "/"},
-    {title2: "Базовая техника", path2: "/"},
-    {title2: "Пхумсэ", path2: "/"},
-    {title2: "Блог", path2: "/"},
-]
 
 
 const LeftSideM = () => {
