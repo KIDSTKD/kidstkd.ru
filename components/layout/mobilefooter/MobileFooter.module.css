@@ -60,6 +60,9 @@
     background-image: url("../../../src/icons/ic_settings_filled.svg");
 }
 
+
+
+
 @media screen and (orientation: portrait) {  
     .mobile_footer {
         grid-area: mobile_footer;
@@ -81,13 +84,18 @@
         z-index: -1;
     }
 
+
     .menu:hover .hidden_menu {
         position: fixed;
         left: 0%;
         transition: all 0.5s ease-out;
     }
 
-
+    .menu:active .hidden_menu {
+        position: fixed;
+        left: -70%;
+        transition: all 0.5s ease-out;
+    }
 
 
 
@@ -102,6 +110,8 @@
         opacity: 0.97;
         z-index: 8;
     }
+
+
     
     .left_side p {
         color: var(--textlight);

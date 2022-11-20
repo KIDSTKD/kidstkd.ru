@@ -41,10 +41,7 @@ const MobileFooter = () => {
                             <LeftSideM />
                         </div>
 
-                    </div>
-
-         
-                
+                    </div> 
 
 
 
