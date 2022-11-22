@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import Heading from '../../components/Heading'
-import DocsBlock05 from '../../components/02-docs/DocsBlock04'
+import DocsBlock05 from '../../components/02-docs/DocsBlock05'
 
 const About = () => (
   <>

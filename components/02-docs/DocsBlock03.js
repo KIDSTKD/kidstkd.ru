@@ -2,14 +2,14 @@ import styles from "../02-docs/DocsBlock.module.css"
 import Image from "next/legacy/image";
 import Link from "next/link";
 
-import Docs01 from "./data/03.js"
+import Docs03 from "./data/03.js"
 
 
 const DocsBlock03 = () => {
     return (
         <> 
                
-        {Docs01.map(({id, img, p, number, date, link}) => (
+        {Docs03.map(({id, img, p, number, date, link}) => (
             
             <Link key={id} href={link}> 
 

@@ -2,23 +2,22 @@ import styles from "../02-docs/DocsBlock.module.css"
 import Image from "next/legacy/image";
 import Link from "next/link";
 
-import Docs01 from "./data/04.js"
+import Docs05 from "./data/05.js"
 
 
 const DocsBlock05 = () => {
     return (
         <> 
                
-        {Docs01.map(({id, img, p, number, date, link}) => (
+        {Docs05.map(({id, img, p, number, date, link}) => (
             
             <Link key={id} href={link}> 
 
         <div className={styles.docs}>
             
-            <div className={styles.docs_img}><Image src={img} objectFit='cover' layout='fill' alt={p}/></div>
+            <div className={styles.docs_img}><Image src={img} width={75} height={75}  alt={p}/></div>
             <div className={styles.docs_1line}>{p}</div> 
             <div className={styles.docs_2line}>{date}, {number}</div> 
-            <div className={styles.docs_3line}>{date}, {number}</div> 
         </div>
         </Link>
 
@@ -28,5 +27,5 @@ const DocsBlock05 = () => {
     );
 }
 
-export default DocsBlock04;
+export default DocsBlock05;
 
