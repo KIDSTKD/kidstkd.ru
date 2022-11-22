@@ -18,6 +18,7 @@ const DocsBlock05 = () => {
             <div className={styles.docs_img}><Image src={img} objectFit='cover' layout='fill' alt={p}/></div>
             <div className={styles.docs_1line}>{p}</div> 
             <div className={styles.docs_2line}>{date}, {number}</div> 
+            <div className={styles.docs_3line}>{date}, {number}</div> 
         </div>
         </Link>
 

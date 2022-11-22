@@ -8,6 +8,15 @@ const Docs02 = [
         link: 'link'
     },
 
+    { 
+        id: 1, 
+        img: '/img/02/05/kpnp.png', 
+        p: 'KPNP', 
+        date: '15.11.2022',
+        number: ' 2.0.7',
+        link: 'link'
+    },
+
 
 
 ];
