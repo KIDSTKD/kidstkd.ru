@@ -7,22 +7,23 @@
     margin-left: 10px;    
     display: grid;
     grid-template-columns: 75px 1fr;
-    grid-template-rows: 25px 25px 25px;
+    grid-template-rows: 1fr 25px;
     grid-template-areas: 
-    "img p"
-    "img number"
-    "img date";
+    "img 1line"
+    "img 2line";    
+
+
   }
 
   .docs_img {
     grid-area: img;
     width: 75px;
     height: 75px;
-    position: absolute;
   }
 
   .docs_1line {
-    grid-area: p;
+    grid-area: 1line;
+    width: 100%;
     text-indent: 0;
     font-family: exo_2regular_condensed;
     color: var(--textdark);
@@ -30,7 +31,6 @@
     margin-left: 5px;
     line-height: 25px;
     
-    white-space: nowrap; 
     overflow: hidden; 
     text-overflow: ellipsis; 
     
@@ -42,7 +42,7 @@
     }
 
     .docs_2line {
-      grid-area: number;
+      grid-area: 2line;
       text-indent: 0;
       font-family: exo_2regular_condensed;
       color: var(--textdark);
@@ -52,20 +52,14 @@
       overflow-y: hidden;
       text-overflow: ellipsis; 
       color: var(--textgray);
+
+      white-space: nowrap;
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+
       }
 
-      .docs_3line {
-        grid-area: date;
-        text-indent: 0;
-        font-family: exo_2regular_condensed;
-        color: var(--textdark);
-        text-align: justify;
-        margin-left: 5px;
-        line-height: 25px;
-        overflow-y: hidden;
-        text-overflow: ellipsis; 
-        color: var(--textgray);
-        }
+ 
 
    
 
@@ -80,14 +74,6 @@
         margin-bottom: 18px;
       }
 
-      .news_img {
-        grid-area: img;
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        height: 60vw;
-        
-      }
 
 
 

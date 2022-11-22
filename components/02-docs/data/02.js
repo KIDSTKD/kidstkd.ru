@@ -30,7 +30,7 @@ const Docs02 = [
         id: 1, 
         img: '/img/02/02/1.png', 
         p: 'О присвоении спортивных разрядов (Хван Александра, I разряд)', 
-        number: 'No6-cp',
+        number: 'No 6-cp',
         date: '10.02.2020',
         link: 'https://sportprimorsky.ru/engine/download.php?id=3003'
     },
@@ -39,7 +39,7 @@ const Docs02 = [
         id: 1, 
         img: '/img/02/02/1sk.png', 
         p: 'Приказы о присвоении судейских категорий по видам спорта (Cалатский С.В., СС1К)', 
-        number: 'No6-cp',
+        number: 'No 6-cp',
         date: '07.05.2019',
         link: 'https://sportprimorsky.ru/engine/download.php?id=2188'
     },
