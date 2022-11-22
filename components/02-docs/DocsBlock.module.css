@@ -1,8 +1,9 @@
 .docs {
-    width: 90%;
+    width: calc(50% - 10px);
     height: 75px;
+    float: left;
     padding-bottom: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 28px;
     margin-left: 10px;    
     display: grid;
     grid-template-columns: 75px 1fr;
@@ -28,8 +29,11 @@
     text-align: justify;
     margin-left: 5px;
     line-height: 25px;
-    overflow-y: hidden;
+    
+    white-space: nowrap; 
+    overflow: hidden; 
     text-overflow: ellipsis; 
+    
     color: var(--linkblue);
     }
 
@@ -71,20 +75,9 @@
     
 
     @media screen and (orientation: portrait) {  
-      .news {
+      .docs {
         width: 100%;
-        min-height: calc(60vw + 120px);
-        border-bottom-style: inset;
-        border-bottom-color: #dceffd;
-        margin: 0;
-        padding: 0;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 60vw 40px 90px;
-        grid-template-areas: 
-        "img"
-        "header"
-        "p";
+        margin-bottom: 18px;
       }
 
       .news_img {
@@ -96,34 +89,7 @@
         
       }
 
-      .news_header {
-        grid-area: header;
-        background-color: var(--textlight);
-        opacity: 80%;
-        height: 40px;
-        margin: 0px;
-        font-family: bebas_neuelight;
-        font-size: 28px;  
-        line-height: 40px;
-        color: var(--textdark);
-        position: relative;
-        top: -40px
-      }
-      
-      .news_p {
-        grid-area: p;
-        overflow-y: hidden;
-        height: 100px;
-        padding: 0;
-        margin: 0;
-        position: relative;
-        top: -40px;
-        }
 
-        .news_logo {
-          width: 100%;
-          position: relative;
-        }
 
     }
 
