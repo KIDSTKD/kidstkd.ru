@@ -1,0 +1,130 @@
+.docs {
+    width: 90%;
+    height: 75px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    margin-left: 10px;    
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    grid-template-rows: 25px 25px 25px;
+    grid-template-areas: 
+    "img p"
+    "img number"
+    "img date";
+  }
+
+  .docs_img {
+    grid-area: img;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+  }
+
+  .docs_1line {
+    grid-area: p;
+    text-indent: 0;
+    font-family: exo_2regular_condensed;
+    color: var(--textdark);
+    text-align: justify;
+    margin-left: 5px;
+    line-height: 25px;
+    overflow-y: hidden;
+    text-overflow: ellipsis; 
+    color: var(--linkblue);
+    }
+
+    .docs_1line:hover {
+      text-decoration: underline;
+    }
+
+    .docs_2line {
+      grid-area: number;
+      text-indent: 0;
+      font-family: exo_2regular_condensed;
+      color: var(--textdark);
+      text-align: justify;
+      margin-left: 5px;
+      line-height: 25px;
+      overflow-y: hidden;
+      text-overflow: ellipsis; 
+      color: var(--textgray);
+      }
+
+      .docs_3line {
+        grid-area: date;
+        text-indent: 0;
+        font-family: exo_2regular_condensed;
+        color: var(--textdark);
+        text-align: justify;
+        margin-left: 5px;
+        line-height: 25px;
+        overflow-y: hidden;
+        text-overflow: ellipsis; 
+        color: var(--textgray);
+        }
+
+   
+
+
+    
+    
+    
+
+    @media screen and (orientation: portrait) {  
+      .news {
+        width: 100%;
+        min-height: calc(60vw + 120px);
+        border-bottom-style: inset;
+        border-bottom-color: #dceffd;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60vw 40px 90px;
+        grid-template-areas: 
+        "img"
+        "header"
+        "p";
+      }
+
+      .news_img {
+        grid-area: img;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 60vw;
+        
+      }
+
+      .news_header {
+        grid-area: header;
+        background-color: var(--textlight);
+        opacity: 80%;
+        height: 40px;
+        margin: 0px;
+        font-family: bebas_neuelight;
+        font-size: 28px;  
+        line-height: 40px;
+        color: var(--textdark);
+        position: relative;
+        top: -40px
+      }
+      
+      .news_p {
+        grid-area: p;
+        overflow-y: hidden;
+        height: 100px;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        top: -40px;
+        }
+
+        .news_logo {
+          width: 100%;
+          position: relative;
+        }
+
+    }
+
+ 

@@ -33,15 +33,18 @@ const MobileFooter = () => {
 
             <div className={styles.mobile_footer}>
 
+    
+
+    <div className={styles.menu}>
+
+<div className={styles.hidden_menu}>
+    <LeftSideM />
+</div>
+
+</div> 
 
 
-                    <div className={styles.menu}>
-
-                        <div className={styles.hidden_menu}>
-                            <LeftSideM />
-                        </div>
-
-                    </div> 
+                   
 
 
 

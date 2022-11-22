@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import Heading from '../../components/Heading'
+import DocsBlock02 from '../../components/02-docs/DocsBlock02'
 
 const About = () => (
   <>
@@ -8,7 +9,7 @@ const About = () => (
   <title>KIDSTKD - Наградные приказы</title>
   </Head>
   <Heading text="Наградные приказы" />
-  <p>1111</p>
+  <DocsBlock02 />
 
   </>
 )

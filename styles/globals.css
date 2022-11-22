@@ -57,7 +57,7 @@ p {
   color: var(--textdark);
 	text-align: justify;
 	text-indent: 20px;
-	padding: 5px 15px 5px 15px;
+	padding: 5px;
 }
 
 .left_side p {
@@ -110,7 +110,9 @@ h4 {
   --deepblue: #255d98;
   --lightblue: #8fb8d8;
   --textdark: #151718;
+  --textgray: #434546;
   --textlight: #d9ebf4;
+  --linkblue: #1d4a79;
 }
 
 @media screen and (orientation: portrait) {  

@@ -7,21 +7,18 @@
     width: 30px;
     height: 30px;
 }
-.home:hover, .home_pressed {
+.home_pressed {
     width: 30px;
     height: 30px;
     background-image: url("../../../src/icons/ic_home_filled.svg");
 
 }
-
-
-
 .bookmark {
     background-image: url("../../../src/icons/ic_bookmark_blank.svg");
     width: 30px;
     height: 30px;
 }
-.bookmark:hover, .bookmark_pressed {
+.bookmark_pressed {
     width: 30px;
     height: 30px;
     background-image: url("../../../src/icons/ic_bookmark_filled.svg");
@@ -32,7 +29,7 @@
     width: 30px;
     height: 30px;
 }
-.menu:hover, .menu_pressed {
+.menu:hover {
     width: 30px;
     height: 30px;
     background-image: url("../../../src/icons/ic_menu_filled.svg");
@@ -43,7 +40,7 @@
     width: 30px;
     height: 30px;
 }
-.search:hover, .search_pressed {
+.search_pressed {
     width: 30px;
     height: 30px;
     background-image: url("../../../src/icons/ic_search_filled.svg");
@@ -54,7 +51,7 @@
     width: 30px;
     height: 30px;
 }
-.settings:hover, .settings_pressed {
+.settings_pressed {
     width: 30px;
     height: 30px;
     background-image: url("../../../src/icons/ic_settings_filled.svg");
@@ -81,8 +78,9 @@
         position: absolute;
         top: 0px;
         left: -70%;
-        z-index: -1;
     }
+
+ 
 
 
     .menu:hover .hidden_menu {
@@ -97,6 +95,7 @@
         transition: all 0.5s ease-out;
     }
 
+  
 
 
 
@@ -159,6 +158,8 @@
     .invisible {
         display: none;
     }
+
+
     
     .display {
         display: inline;
