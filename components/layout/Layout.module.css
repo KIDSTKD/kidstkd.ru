@@ -37,7 +37,7 @@
 @media screen and (orientation: portrait) {  
   .wrapper {
     grid-template-columns: 1fr;
-    grid-template-rows: 180px 1fr auto;
+    grid-template-rows: auto 1fr 56px;
     grid-template-areas: 
     "logo"
     "main"
