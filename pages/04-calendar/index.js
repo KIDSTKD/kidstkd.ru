@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Heading from '../../components/Heading'
-
-import Month from '../../components/04-calendar/month'
 import styles from '../../components/04-calendar/Month.module.css'
 
-import {jan, feb, mar, apr, may, jun, jul, aug, sem, oct, nov, dec} from "../../components/04-calendar/data/2022"
+import Month from '../../components/04-calendar/month'
+
+import {jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec} from "../../components/04-calendar/data/2022"
 
 {jan}
 {feb}
@@ -14,7 +14,7 @@ import {jan, feb, mar, apr, may, jun, jul, aug, sem, oct, nov, dec} from "../../
 {jun}
 {jul}
 {aug}
-{sem}
+{sep}
 {oct}
 {nov}
 {dec}
@@ -108,7 +108,7 @@ const Calendar = () => (
 
   <Month text="Сентябрь" />
   <div>
-    {sem.map(({ id, date, title, etc }) => (
+    {sep.map(({ id, date, title, etc }) => (
       <><div className={styles.event}>
       <p><strong>{date} </strong>{title}</p>
         <p className={styles.etc}>{etc}</p>

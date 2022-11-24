@@ -5,20 +5,8 @@ import { useRouter } from 'next/router'
 import Month from '../../components/04-calendar/month'
 import styles from '../../components/04-calendar/Month.module.css'
 
-import {jan, feb, mar, apr, may, jun, jul, aug, sem, oct, nov, dec} from "../../components/04-calendar/data/2021"
+import {jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec} from "../../components/04-calendar/data/2021"
 
-{jan}
-{feb}
-{mar}
-{apr}
-{may}
-{jun}
-{jul}
-{aug}
-{sem}
-{oct}
-{nov}
-{dec}
 
 export default function CalendarID () {
   const router = useRouter ();
@@ -113,7 +101,7 @@ export default function CalendarID () {
 
   <Month text="Сентябрь" />
   <div>
-    {sem.map(({ id, date, title, etc }) => (
+    {sep.map(({ id, date, title, etc }) => (
       <><div className={styles.event}>
       <p><strong>{date} </strong>{title}</p>
         <p className={styles.etc}>{etc}</p>

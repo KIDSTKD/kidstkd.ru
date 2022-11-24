@@ -74,8 +74,8 @@ h1 {
 	font-size:36px;
 	font-weight: 100;
 	line-height:40px;
-  padding-left: 40px;
   text-align: left;
+  padding-left: 40px;
 
 }
 
@@ -85,7 +85,6 @@ h2 {
 	font-size:32px;
 	font-weight: 100;
 	line-height:36px;
-  padding-left: 40px;
   text-align: center;
 
 }
@@ -96,7 +95,9 @@ h3 {
   font-weight: 100;
   padding-top: 8px;
   padding-bottom: 4px;
-  text-align: center;
+  text-align: left;
+  padding-left: 40px;
+
 }
 
 h4 {
@@ -105,6 +106,8 @@ h4 {
   font-size: 24px;
   text-align: center;	
 }
+
+
 
 :root {
   --deepblue: #255d98;

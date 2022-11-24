@@ -34,7 +34,7 @@ const jan = [
     { id: 1, date: '', title: '', etc: '' },
   ];
   
-  const sem = [
+  const sep = [
     { id: 1, date: '', title: '', etc: '' },
   ];
   
@@ -50,4 +50,4 @@ const jan = [
     { id: 1, date: '', title: '', etc: '' },
   ];
 
-  export {jan, feb, mar, apr, may, jun, jul, aug, sem, oct, nov, dec}
+  export {jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec}

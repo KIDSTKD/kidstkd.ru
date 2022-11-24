@@ -5,8 +5,7 @@ import { useRouter } from 'next/router'
 import Month from '../../components/04-calendar/month'
 import styles from '../../components/04-calendar/Month.module.css'
 
-import {jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec} from "../../components/04-calendar/data/2022"
-
+import {jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec} from "../../components/04-calendar/data/2023.js"
 
 export default function CalendarID () {
   const router = useRouter ();
@@ -15,9 +14,9 @@ export default function CalendarID () {
   return (
   <>
   <Head>
-    <title>KIDSTKD - Календарь 2022</title>
+    <title>KIDSTKD - Календарь 2023</title>
   </Head>
-  <Heading text="Календарь - 2022" />
+  <Heading text="Календарь - 2023" />
 
   <Month text="Январь" />
   <div>

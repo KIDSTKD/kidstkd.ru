@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import { useState } from "react";
 
 import LeftSideM from "../leftside/LeftSideM";
 import styles from "../mobilefooter/MobileFooter.module.css"
@@ -15,15 +16,16 @@ const navigation = [
 
 
 
+
+
 const MobileFooter = () => {
 
 
 
     const { pathname } = useRouter();
 
-
-    function menuOpen () {
-
+    function openMenu () {
+        const [activeState, setActiveState] = useState(false);
     }
 
     return (
@@ -32,25 +34,14 @@ const MobileFooter = () => {
             
 
             <div className={styles.mobile_footer}>
+                <div className={styles.menu} onClick={openMenu()}>
+                    <div className={styles.activeState ? styles.visible_menu : styles.hidden_menu}>
+                        <LeftSideM />
+                    </div>
 
-    
+                </div> 
 
-    <div className={styles.menu}>
-
-<div className={styles.hidden_menu}>
-    <LeftSideM />
-</div>
-
-</div> 
-
-
-                   
-
-
-
-    
                 {navigation.map(({ id, title, title2, path }) => (
-
                     <Link key={id} href={path}>
                         <div className={pathname === path ? styles[title2] : styles[title]}></div>
                     </Link>
