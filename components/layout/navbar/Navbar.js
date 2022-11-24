@@ -8,7 +8,7 @@ const navigation_top = [
     { id: 1, title: 'search', path: '/search',},
     { id: 2, title: 'mail', path: 'mail' },
     { id: 3, title: 'inst', path: 'inst' },
-    { id: 4, title: 'youtube', path: 'YT' },
+    { id: 4, title: 'youtube', path: 'https://www.youtube.com/@kidstkdtaekwondo2028' },
 ];
 
 const Navbar = () => {
@@ -18,9 +18,9 @@ const Navbar = () => {
     return (
         <nav className={styles.navbar}>
             <div className={styles.navbar__text}>
-                <a>О Нас</a>
-                <a>Новости</a>
-                <a>Контакты</a>
+                <a href="/01-about-us">О Нас</a>
+                <a href="/03-news">Новости</a>
+                <a href="/07-contacts">Контакты</a>
             </div>
 
             
