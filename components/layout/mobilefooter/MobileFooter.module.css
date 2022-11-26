@@ -89,7 +89,7 @@
  
 
 
-    /* .menu:hover .hidden_menu {
+    .menu:hover .hidden_menu {
         position: fixed;
         left: 0%;
         transition: all 0.5s ease-out;
@@ -99,7 +99,7 @@
         position: fixed;
         left: -70%;
         transition: all 0.5s ease-out;
-    } */
+    }
 
   
 

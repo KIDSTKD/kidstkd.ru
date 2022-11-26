@@ -33,7 +33,7 @@ const MobileFooter = () => {
 
             <div className={styles.mobile_footer}>
                 <div className={styles.menu}>
-                    <div className={styles.activeState ? styles.visible_menu : styles.hidden_menu}>
+                    <div className={styles.hidden_menu}>
                         <LeftSideM />
                     </div>
 
