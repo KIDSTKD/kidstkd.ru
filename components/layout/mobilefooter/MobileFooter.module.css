@@ -80,15 +80,6 @@
         left: -70%;
     }
 
-    .visible_menu {
-        position: absolute;
-        top: 0px;
-        left: 0%;
-    }
-
- 
-
-
     .menu:hover .hidden_menu {
         position: fixed;
         left: 0%;
@@ -100,6 +91,10 @@
         left: -70%;
         transition: all 0.5s ease-out;
     }
+
+   
+
+ 
 
   
 
