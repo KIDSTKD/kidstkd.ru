@@ -24,9 +24,7 @@ const MobileFooter = () => {
 
     const { pathname } = useRouter();
 
-    function openMenu () {
-        const [activeState, setActiveState] = useState(false);
-    }
+ 
 
     return (
         
@@ -34,7 +32,7 @@ const MobileFooter = () => {
             
 
             <div className={styles.mobile_footer}>
-                <div className={styles.menu} onClick={openMenu()}>
+                <div className={styles.menu}>
                     <div className={styles.activeState ? styles.visible_menu : styles.hidden_menu}>
                         <LeftSideM />
                     </div>

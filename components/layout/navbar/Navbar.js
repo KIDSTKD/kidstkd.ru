@@ -18,9 +18,9 @@ const Navbar = () => {
     return (
         <nav className={styles.navbar}>
             <div className={styles.navbar__text}>
-                <a href="/01-about-us">О Нас</a>
-                <a href="/03-news">Новости</a>
-                <a href="/07-contacts">Контакты</a>
+                <Link href={/01-about-us/}>О Нас</Link>
+                <Link href={/03-news/}>Новости</Link>
+                <Link href={/07-contacts/}>Контакты</Link>
             </div>
 
             
