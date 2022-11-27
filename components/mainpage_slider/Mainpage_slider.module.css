@@ -1,104 +1,22 @@
 .main_slider {
-	width: 100%;
+	max-width: 100%;
 	height: 400px;
-	display: flex;
-	flex-wrap: nowrap;
-	overflow-x: auto;
-  overflow-y: hidden;
-	scroll-snap-type: x mandatory;
   margin-left: 5px;
+
+  display: flex;
+  
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overflow-y: hidden;
+  
+  
+  
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
 }
 
 .main_slider::-webkit-scrollbar {
   width: 0px;
   height: 0px;
-}
-
-.main_slider_item {
-	width: 300px;
-	height: 400px;
-	scroll-snap-align: start;
-	scroll-snap-stop: always;
-	flex-shrink: 0;
-  margin-left: 10px;
-  border-radius: 5px;
-  color: var(--textlight);
-  font-family: bebas_neue_regularregular;
-
-}
-
-.slider__text {
-  
-  line-height: 26px;
-  font-size: 20px;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.slider__text_bottom {
-  line-height: 26px;
-  font-size: 20px;
-  text-align: center;
-  margin-top: 300px;
-}
-
-.main_slider_item:nth-child(1) {
-  background-image: 
-    url(/svg/bg/top_blue.svg),
-    url(/svg/bg/bg_narrow.svg),
-    url(/img/athlets/01.png);
-    background-size: auto, auto, cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, bottom 0 right 0, 0 0;
-}
-
-.main_slider_item:nth-child(2) {
-  background-image: 
-    url(/svg/bg/top_blue.svg),
-    url(/svg/bg/bg_narrow.svg),
-    url(/img/athlets/02.png);
-    background-size: auto, auto, cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, bottom 0 right 0, 0 0;
-}
-
-.main_slider_item:nth-child(3) {
-  background-image: 
-    url(/svg/bg/top_blue.svg),
-    url(/svg/bg/bg_narrow.svg),
-    url(/img/athlets/03.png);
-    background-size: auto, auto, cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, bottom 0 right 0, 0 0;
-}
-
-.main_slider_item:nth-child(4) {
-  background-image: 
-    url(/svg/bg/top_blue.svg),
-    url(/svg/bg/bg_narrow.svg),
-    url(/img/athlets/04.png);
-    background-size: auto, auto, cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, bottom 0 right 0, 0 0;
-}
-
-.main_slider_item:nth-child(5) {
-  background-image: 
-    url(/svg/bg/top_blue.svg),
-    url(/svg/bg/bg_narrow.svg),
-    url(/img/athlets/05.png);
-    background-size: auto, auto, cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, bottom 0 right 0, 0 0;
-}
-
-
-.main_slider_item:nth-child(6) {
-  background-image: 
-    url(/svg/bg/top_blue.svg),
-    url(/svg/bg/bg_narrow.svg),
-    url(/img/athlets/06.png);
-    background-size: auto, auto, cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, bottom 0 right 0, 0 0;
 }
