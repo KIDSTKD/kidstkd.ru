@@ -56,13 +56,11 @@
       .news {
         width: 100%;
         min-height: calc(60vw + 100px);
-        border-bottom-style: inset;
-        border-bottom-color: #dceffd;
         margin: 0;
         padding: 0;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 60vw 40px 90px;
+        grid-template-rows: 60vw 40px 100px;
         grid-template-areas: 
         "img"
         "header"
@@ -84,6 +82,8 @@
         opacity: 80%;
         height: 40px;
         margin: 0px;
+        padding: 0;
+        padding-left: 10px;
         font-family: bebas_neuelight;
         font-size: 28px;  
         line-height: 40px;
@@ -94,13 +94,14 @@
       
       .news_p {
         grid-area: p;
-        overflow-y: hidden;
         height: 100px;
         line-height: 20px;
         padding: 0;
         margin: 0;
         position: relative;
         top: -40px;
+
+
         }
 
         .news_logo {

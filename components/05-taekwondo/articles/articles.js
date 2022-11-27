@@ -17,7 +17,7 @@ const ArticlesBlock = () => {
             
             <div className={styles.articles_img}><Image src={img} objectFit='cover' layout='fill' alt={title}/></div>
             <div className={styles.articles_header}>{title}</div>
-            <div className={styles.articles_p}><p>{p}</p></div> 
+            <p className={styles.articles_p}>{p}</p> 
         </div>
         </Link>
 

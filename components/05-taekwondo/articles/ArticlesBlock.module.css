@@ -88,6 +88,7 @@
         grid-area: p;
         overflow-y: hidden;
         height: 100px;
+        line-height: 20px;
         padding: 0;
         margin: 0;
         position: relative;

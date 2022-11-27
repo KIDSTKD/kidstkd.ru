@@ -17,7 +17,7 @@ const NewsBlock = () => {
             
             <div className={styles.news_img}><Image src={path} objectFit='cover' layout='fill' alt={title}/></div>
             <div className={styles.news_header}>{date} - {title} ({place})</div>
-            <div className={styles.news_p}><p>{p}</p></div> 
+            <p className={styles.news_p}>{p}</p> 
         </div>
         </Link>
 
