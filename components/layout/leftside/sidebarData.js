@@ -83,11 +83,11 @@ export const CalendarLink = [
 ]
 
 export const TaekwondoLink = [
-    {title2: "Что такое тхэквондо", path2: "/05-taekwondo/01-about"},
-    {title2: "История тхэквондо", path2: "/05-taekwondo/02-history"},
-    {title2: "Терминология", path2: "/05-taekwondo/03-terminology"},
-    {title2: "Правила соревнований", path2: "/05-taekwondo/04-rules"},
-    {title2: "Базовая техника", path2: "/05-taekwondo/05-kibon"},
-    {title2: "Пхумсэ", path2: "/05-taekwondo/06-poomsae"},
-    {title2: "Блог", path2: "/05-taekwondo/07-articles"},
+    {title2: "Что такое тхэквондо", path2: "/05-taekwondo/about"},
+    {title2: "История тхэквондо", path2: "/05-taekwondo/history"},
+    {title2: "Терминология", path2: "/05-taekwondo/terminology"},
+    {title2: "Правила соревнований", path2: "/05-taekwondo/rules"},
+    {title2: "Базовая техника", path2: "/05-taekwondo/kibon"},
+    {title2: "Пхумсэ", path2: "/05-taekwondo/poomsae"},
+    {title2: "Блог", path2: "/05-taekwondo/articles"},
 ]

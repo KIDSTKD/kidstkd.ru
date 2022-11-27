@@ -55,7 +55,7 @@ const LeftSideM = () => {
 
                 {TaekwondoLink.map(({ title2, path2 }) => (
                    <Link key={id} href={path2}>
-                   <p className={pathname === "/05-taekwondo" ? styles.left_item_second_level : styles.invisible}>{title2}</p>
+                    <p className={pathname.includes('05-taekwondo') ? styles.left_item_second_level : styles.invisible}>{title2}</p>
                    </Link>
                ))}
 
