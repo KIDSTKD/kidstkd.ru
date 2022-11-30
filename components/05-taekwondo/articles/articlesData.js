@@ -1,54 +1,182 @@
 const Articles = [
+ 
+    // { 
+    //     id: 1, 
+    //     img: '/img/05/articles/01/01.png', 
+    //     title: '',
+    //     p: '', 
+    //     link: '/05-taekwondo/articles/01'
+    // },
+
     { 
-        id: 64, 
-        img: '/img/05/articles/64/01.jpg', 
-        title: 'Актуальные жесты рефери в редакции правил соревнований от 2019 г.',
-        p: 'Актуальные жесты рефери в редакции правил соревнований от 2019 г.', 
-        link: '/05-taekwondo/articles/64-taekwondo-referee-hand-signals'
+        id: 23, 
+        img: '/img/05/articles/23/01.png', 
+        title: 'Обновление PSS (DAEDO, KPNP)',
+        p: 'Обновление PSS (DAEDO, KPNP)', 
+        link: '/05-taekwondo/articles/23-pss-update'
     },
 
     { 
-        id: 63, 
-        img: '/img/05/articles/63/01.png', 
-        title: 'Онлайн Чемпионат Европы по техническому комплексу пхумсэ',
-        p: 'С 4 по 10 мая состоится первый Открытый Онлайн Чемпионат Европы, который будет организован в уникальном формате и предоставит спортсменам со всего Мира возможность поучаствовать в нем. Турнир проводится под эгидой World Taekwondo Europe, производителя экипировки Daedo и информационного ресурса Mastkd.com в поддержку спортсменов, которые в связи с распространением COVID-19, не имеют возможности состязаться на международном уровне.', 
-        link: '/05-taekwondo/articles/63-1st-Online-Daedo-Open-European-Poomsae-Championships'
-    },
-    
-    { 
-        id: 62, 
-        img: '/img/05/articles/62/01.png', 
-        title: 'PSS Daedo снова выбрана для проведения Олимпийских Игр',
-        p: 'Компания Swiss Timing, которая отвечает за подсчет времени и очков на любых соревнованиях в рамках Олимпийских Играх, вплоть до 2032 года, сообщила, что испанская компания Daedo выбрана в качестве поставщика системы судейства для Олимпийских Игр 2020 в Токио. Стоит отметить, что PSS Daedo выбрана третий раз подряд, в качестве официальной системы на Олимпийских Играх.', 
-        link: '/05-taekwondo/articles/62-daedo-tokyo-olympic-2020'
+        id: 22, 
+        img: '/img/05/articles/22/01.png', 
+        title: 'Правила соревнований 2022',
+        p: 'Правила соревнований 2022', 
+        link: '/05-taekwondo/articles/22-new-rules'
     },
 
     { 
-        id: 61, 
-        img: '/img/05/articles/61/01.png', 
-        title: 'Чемпионат Мира по тхэквондо 2017 (Муджу, Корея)',
-        p: 'Чемпионат Мира по тхэквондо пройдет в корейском Муджу с 24 по 30 июня. И как ожидается это будет крупнейший и лучший Чемпионат Мира в истории. Чемпионат Мира является самым престижным турниром для тхэквондо после Олимпийских Игр. Тем не менее 7-дневный турнир – более масштабное событие, чем 4-дневная Олимпиада, в нём учувствует большее количество команд и спортсменов, которые сражаются за медали в 16 (а не в 8, как на Олимпиаде) весовых категориях.', 
-        link: '/05-taekwondo/articles/60-2017-wtf-world-taekwondo-championships-2017-muju-korea'
+        id: 21, 
+        img: '/img/05/articles/21/01.jpg', 
+        title: 'Олимпийские Игры Токио-2020',
+        p: 'Олимпийские Игры Токио-2020', 
+        link: '/05-taekwondo/articles/21-tokyo-2020'
     },
 
     { 
-        id: 60, 
-        img: '/img/05/articles/60/01.png', 
-        title: 'Первый пляжный Чемпионат Мира по тхэквондо 2017',
-        p: 'Первый пляжный Чемпионат Мира по тхэквондо пройдет в средневековом городе Родос, Греция, 5-6 мая 2017 года. Место соревнований было выбрано неслучайно. Родос представляет собой перекресток между Востоком и Западом, что делает его идеальным выбором для содействия единству культур и народов. Средневековый город Родос признан ЮНЕСКО памятником всемирного наследия, и, как утверждается, он имеет самую хорошо сохранившуюся средневековую инфраструктуру и здания. И парад открытия соревнований пройдет по историческим маршрутам Родоса.', 
-        link: '/05-taekwondo/articles/60-1st-wtf-world-taekwondo-beach-championships-2017'
+        id: 20, 
+        img: '/img/05/articles/20/01.tiff', 
+        title: 'Жесты рефери',
+        p: 'Жесты рефери', 
+        link: '/05-taekwondo/articles/20-referee-hand-signals'
     },
 
     { 
-        id: 59, 
-        img: '/img/05/articles/59/01.png', 
-        title: 'PSS Daedo снова выбрана для проведения Олимпийских Игр',
-        p: '', 
-        link: '/05-taekwondo/articles/62-daedo-tokyo-olympic-2020'
+        id: 17, 
+        img: '/img/05/articles/17/01.png', 
+        title: 'Сколько стоит чемпионат мира по тхэквондо?',
+        p: 'Сколько стоит чемпионат мира по тхэквондо?', 
+        link: '/05-taekwondo/articles/17-how-much-is-wtf-championship'
+    },
+
+    { 
+        id: 16, 
+        img: '/img/05/articles/16/01.png', 
+        title: '4 Сентября - День Тхэквондо',
+        p: '4 Сентября - День Тхэквондо', 
+        link: '/05-taekwondo/articles/16-september-04-taekwondo-day'
     },
 
 
+    { 
+        id: 15, 
+        img: '/img/05/articles/15/01.jpg', 
+        title: 'История изменения правил тхэквондо',
+        p: 'История изменения правил тхэквондо', 
+        link: '/05-taekwondo/articles/15-rules-history'
+    },
 
+
+    { 
+        id: 14, 
+        img: '/img/05/articles/14/01.png', 
+        title: 'Ключевые аспекты правил соревнований по пхумсэ',
+        p: 'Ключевые аспекты правил соревнований по пхумсэ', 
+        link: '/05-taekwondo/articles/14-poomsae-rules'
+    },
+
+    { 
+        id: 13, 
+        img: '/img/05/articles/13/01.png', 
+        title: 'Лицензирование',
+        p: 'Лицензирование', 
+        link: '/05-taekwondo/articles/13-wt-licence-system'
+    },
+
+    { 
+        id: 12, 
+        img: '/img/05/articles/12/01.png', 
+        title: 'Рейтинг WT',
+        p: 'Рейтинг WT', 
+        link: '/05-taekwondo/articles/12-wt-rank-system'
+    },
+
+    { 
+        id: 11, 
+        img: '/img/05/articles/11/01.png', 
+        title: 'Роль тейпирования в современном спорте',
+        p: 'Роль тейпирования в современном спорте', 
+        link: '/05-taekwondo/articles/11-taping'
+    },
+
+    { 
+        id: 10, 
+        img: '/img/05/articles/10/01.png', 
+        title: 'Daedo PSS - миф о росте',
+        p: 'Daedo PSS - миф о росте', 
+        link: '/05-taekwondo/articles/10-deado-height-myph'
+    },
+
+    { 
+        id: 9, 
+        img: '/img/05/articles/09/01.png', 
+        title: 'Тобок: эволюция',
+        p: 'Тобок: эволюция', 
+        link: '/05-taekwondo/articles/09-dobok-evolution'
+    },
+
+    { 
+        id: 8, 
+        img: '/img/05/articles/08/01.jpg', 
+        title: 'Британский подход к тактике тхэквондо (Пол Грин)',
+        p: 'Британский подход к тактике тхэквондо (Пол Грин)', 
+        link: '/05-taekwondo/articles/08-paul-green'
+    },
+
+    { 
+        id: 7, 
+        img: '/img/05/articles/07/01.png', 
+        title: 'Электронное оборудование Zemita',
+        p: 'Электронное оборудование Zemita', 
+        link: '/05-taekwondo/articles/07-zemita'
+    },
+
+    { 
+        id: 6, 
+        img: '/img/05/articles/06/01.png', 
+        title: 'Электронная система судейства KPNP',
+        p: 'Электронная система судейства KPNP', 
+        link: '/05-taekwondo/articles/06-kpnp-pss'
+    },
+
+    { 
+        id: 5, 
+        img: '/img/05/articles/05/01.png', 
+        title: 'Электронная система судейства Daedo PSS',
+        p: 'Электронная система судейства Daedo PSS', 
+        link: '/05-taekwondo/articles/05-daedo-pss'
+    },
+
+    { 
+        id: 4, 
+        img: '/img/05/articles/04/01.png', 
+        title: 'Электронные системы судейства в тхэквондо',
+        p: 'Электронныe системы судейства в тхэквондо', 
+        link: '/05-taekwondo/articles/04-pss'
+    },
+
+    { 
+        id: 3, 
+        img: '/img/05/articles/03/01.png', 
+        title: 'Всемирная федерация тхэквондо',
+        p: 'Всемирная федерация тхэквондо', 
+        link: '/05-taekwondo/articles/03-worldtaekwondo'
+    },
+
+    { 
+        id: 2, 
+        img: '/img/05/articles/02/01.jpg', 
+        title: 'Всемирный турнир "Ханмадан"',
+        p: 'Всемирный турнир "Ханмадан"', 
+        link: '/05-taekwondo/articles/02-hanmadang'
+    },
+
+    { 
+        id: 1, 
+        img: '/img/05/articles/01/01.jpg', 
+        title: 'Всемирная штаб-квартира тхэквондо - Куккивон',
+        p: 'Всемирная штаб-квартира тхэквондо - Куккивон', 
+        link: '/05-taekwondo/articles/01-kukkiwon'
+    },
 
 
 

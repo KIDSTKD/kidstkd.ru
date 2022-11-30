@@ -47,6 +47,10 @@ a {
   text-decoration: none;
 }
 
+.link {
+  color: var(--deepblue);
+}
+
 * {
   box-sizing: border-box;
 }
