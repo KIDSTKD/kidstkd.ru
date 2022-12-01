@@ -143,9 +143,8 @@ li {
   }
 
   .image {
-
     padding: 0px;
-
+    background-color: #434546;
   }
 
 }
