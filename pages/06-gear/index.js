@@ -11,7 +11,7 @@ const Gear = () => (
   </Head>
   <Heading text="Экипировка" />
   <div className='image'>
-    <Image src={Equip} alt='Экипировка' fill='true'/>
+    <Image src={Equip} alt='Экипировка' objectFit='contain' layout='fill'/>
   </div>
 
   </>
