@@ -131,7 +131,6 @@ li {
 .image {
   width: auto;
   height: 100%;
-  padding: 20px;
   position: relative;
 }
 
@@ -143,8 +142,8 @@ li {
   }
 
   .image {
-    padding: 0px;
-    background-color: #434546;
+    height: 100vw;
+    position: relative;
   }
 
 }
