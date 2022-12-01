@@ -119,6 +119,7 @@
         .news_logo {
           width: 100%;
           position: relative;
+          margin-right: 0px;
         }
 
     }

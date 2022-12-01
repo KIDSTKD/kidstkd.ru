@@ -1,6 +1,8 @@
 import Head from 'next/head'
+import Image from 'next/image'
 
 import Heading from '../../components/Heading'
+import Equip from '../../public/img/06/01.png'
 
 const Gear = () => (
   <>
@@ -8,7 +10,9 @@ const Gear = () => (
     <title>KIDSTKD - Экипировка</title>
   </Head>
   <Heading text="Экипировка" />
-    <p>Мы приглашаем детей от 4 лет на занятия олимпийским видом спорта. Занятия проходят в мини-группах детей одного возраста, что обеспечивает положительный результат занятий. Занятия охватывают все аспекты тхэквондо, и включают в себя базовую подготовку, обучение ударной технике, обучение техническому комплексу пхумсэ.</p>
+  <div className='image'>
+    <Image src={Equip} alt='Экипировка' fill='true'/>
+  </div>
 
   </>
 )
