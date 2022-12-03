@@ -4,7 +4,7 @@ function Footer() {
     return (
         <>
             <div className={styles.footer}>
-                <div>&copy; 2014-2022 kidstkd.ru - Школа Тхэквондо ВТФ</div>
+                <div>&copy; 2014-2023 kidstkd.ru - Школа Тхэквондо ВТФ</div>
             </div>
         </>
     );
