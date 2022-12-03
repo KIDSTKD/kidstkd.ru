@@ -6,9 +6,9 @@ import ArticlesBlock from '../../../components/05-taekwondo/articles/articles'
 const Taekwondo = () => (
   <>
   <Head>
-    <title>Блог</title>
+    <title>Публикации</title>
   </Head>
-  <Heading text="Блог" />
+  <Heading text="Публикации" />
   <ArticlesBlock />
 
   </>

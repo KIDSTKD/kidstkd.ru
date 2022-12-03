@@ -4,6 +4,7 @@ import Heading from '../components/Heading'
 import Slider from '../components/mainpage_slider/Mainpage_slider'
 import NewsBlock from '../components/03-news/newsIndex'
 import Link from 'next/link'
+import ArticlesBlock from '../components/05-taekwondo/articles/articlesIndex'
 
 const Home = () => (
   <>
@@ -25,8 +26,12 @@ const Home = () => (
   <p>Мы находимся по адресу ул. Ленина 41 (фитнес-клуб «Taekwondo-Land»). Занятия проводят тренеры-инструкторы федерации: Салатский Станислав Вадимович (Мастер Спорта РФ, 2ой дан), Ким Виктория Алексеевна (Мастер Спорта РФ, 4ый дан). Дополнительную информацию можно уточнить по телефону - <a href="tel:+79644432986">+7(964)443 29 86</a>.</p>
     <h4>Что такое тхэквондо?</h4>
     <p>Тхэквондо – традиционное корейское единоборство, один из популярнейших видов спорта, в котором основой является не физическое превосходство, а техника. Также тхэквондо позволяет гармонично развивать как физические, так и духовные качества. Сегодня тхэквондо международный вид спорта, включенный в программу летних Олимпийских игр.</p>
-    <h4>Новости</h4>
+    <Link href='/03-news'><h4>Новости</h4></Link>
   <NewsBlock />
+    <Link href='/05-taekwondo/articles'><h4>Публикации</h4></Link>
+    <ArticlesBlock />
+
+
   </>
 )
 

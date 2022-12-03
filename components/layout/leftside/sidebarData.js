@@ -89,5 +89,5 @@ export const TaekwondoLink = [
     {title2: "Правила соревнований", path2: "/05-taekwondo/rules"},
     {title2: "Базовая техника", path2: "/05-taekwondo/kibon"},
     {title2: "Пхумсэ", path2: "/05-taekwondo/poomsae"},
-    {title2: "Блог", path2: "/05-taekwondo/articles"},
+    {title2: "Публикации", path2: "/05-taekwondo/articles"},
 ]
