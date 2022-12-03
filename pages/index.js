@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import Heading from '../components/Heading'
 import Slider from '../components/mainpage_slider/Mainpage_slider'
-import NewsBlock from '../components/03-news/news22'
+import NewsBlock from '../components/03-news/newsIndex'
 import Link from 'next/link'
 
 const Home = () => (

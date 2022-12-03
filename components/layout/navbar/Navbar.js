@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 
 const navigation_top = [
     { id: 1, title: 'search', path: '/search',},
-    { id: 2, title: 'mail', path: 'mail' },
+    { id: 2, title: 'mail', path: 'mailto:kidstkd.ru@gmail.com' },
     { id: 3, title: 'inst', path: 'https://instagram.com/kidstkd?igshid=YmMyMTA2M2Y=' },
     { id: 4, title: 'youtube', path: 'https://www.youtube.com/@kidstkdtaekwondo2028' },
 ];
