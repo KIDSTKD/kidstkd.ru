@@ -111,7 +111,7 @@ const ContactBlock = () => {
 
         <div className={styles.contact_block}>
             <div className={styles.contact_logo}>
-                <Image src={Logo} objectFit='contain' layout='fill' />
+                <Image src={Logo} objectFit='contain' layout='fill' alt="Контакты"/>
             </div>
             <div className={styles.contact_name}><h2 className={styles.header}>c. Михайловка, ДС &#34;Светлячок&#34; </h2></div>
             <div className={styles.contact_address}><p className={styles.text}>ул. 2-я Краснознаменская , 51</p></div>
