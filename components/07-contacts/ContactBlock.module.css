@@ -1,5 +1,6 @@
 .contact_block {
 padding-left: 10px;
+padding-bottom: 40px;
  display: grid;
  grid-template-columns: 80px 1fr 1fr;
  grid-template-rows: 50px 30px 30px 1fr;
@@ -96,11 +97,15 @@ padding-left: 10px;
          
         }
 
+        .contact_map {
+            grid-area: map;
+            margin-left: -10px;
+        }
 
         .text {
- 
             text-indent: 5px;
         }
+
   }
 
 
