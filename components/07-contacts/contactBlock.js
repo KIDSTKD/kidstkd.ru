@@ -11,7 +11,7 @@ const ContactBlock = () => {
 
         <div className={styles.contact_block}>
             <div className={styles.contact_logo}>
-                <Image src={Logo} objectFit='contain' layout='fill' />
+                <Image src={Logo} objectFit='contain' layout='fill' alt="Контакты" />
             </div>
             <div className={styles.contact_name}><h2 className={styles.header}>Уссурийск, Фитнес-клуб &#34;Тхэквондо-Лэнд&#34;</h2></div>
             <div className={styles.contact_address}><p className={styles.text}>ул. Ленина, 41, 2 этаж</p></div>
@@ -41,7 +41,7 @@ const ContactBlock = () => {
             </div>
             <div className={styles.contact_map}>
                 <div>
-                    <iframe src="https://yandex.ru/map-widget/v1/-/CCUjyUgq~B" width="100%" height="380" frameborder="0" allowfullscreen="true"></iframe>
+                    <iframe src="https://yandex.ru/map-widget/v1/-/CCUjyUgq~B" width="100%" height="380" frameBorder="0" allowfullscreen="true"></iframe>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@ const ContactBlock = () => {
 
         <div className={styles.contact_block}>
             <div className={styles.contact_logo}>
-                <Image src={Logo} objectFit='contain' layout='fill' />
+                <Image src={Logo} objectFit='contain' layout='fill' alt="Контакты" />
             </div>
             <div className={styles.contact_name}><h2 className={styles.header}>Уссурийск, Детский сад N 246</h2></div>
             <div className={styles.contact_address}><p className={styles.text}>ул. Октябрьская, 189</p></div>
@@ -68,14 +68,14 @@ const ContactBlock = () => {
             </div>
             <div className={styles.contact_map}>
                 <div>
-                    <iframe src="https://yandex.ru/map-widget/v1/-/CCUjyYxz8B" width="100%" height="380" frameborder="0" allowfullscreen="true"></iframe>
+                    <iframe src="https://yandex.ru/map-widget/v1/-/CCUjyYxz8B" width="100%" height="380" frameBorder="0" allowfullscreen="true"></iframe>
                 </div>
             </div>
         </div>
 
         <div className={styles.contact_block}>
             <div className={styles.contact_logo}>
-                <Image src={Logo} objectFit='contain' layout='fill' />
+                <Image src={Logo} objectFit='contain' layout='fill' alt="Контакты" />
             </div>
             <div className={styles.contact_name}><h2 className={styles.header}>c. Михайловка, ДЮСШ</h2></div>
             <div className={styles.contact_address}><p className={styles.text}>ул. Ленинская, 38</p></div>
@@ -104,7 +104,7 @@ const ContactBlock = () => {
             </div>
             <div className={styles.contact_map}>
                 <div>
-                    <iframe src="https://yandex.ru/map-widget/v1/-/CCUjy4F9WD" width="100%" height="380" frameborder="0" allowfullscreen="true"></iframe>
+                    <iframe src="https://yandex.ru/map-widget/v1/-/CCUjy4F9WD" width="100%" height="380" frameBorder="0" allowfullscreen="true"></iframe>
                 </div>
             </div>
         </div>
@@ -133,7 +133,7 @@ const ContactBlock = () => {
             </div>
             <div className={styles.contact_map}>
                 <div>
-                    <iframe src="https://yandex.ru/map-widget/v1/-/CCUjy4bWtD" width="100%" height="380" frameborder="0" allowfullscreen="true"></iframe>
+                    <iframe src="https://yandex.ru/map-widget/v1/-/CCUjy4bWtD" width="100%" height="380" frameBorder="0" allowfullscreen="true"></iframe>
                 </div>
             </div>
         </div>
