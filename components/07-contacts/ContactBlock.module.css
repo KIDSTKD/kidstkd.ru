@@ -16,10 +16,15 @@ padding-left: 10px;
     width: 80px;
     height: 80px;
     -webkit-filter: drop-shadow(3px 5px 5px #434546);
-    filter: drop-shadow(3px 5px 5px #434546);}
+    filter: drop-shadow(3px 5px 5px #434546);
+}
 
 .contact_name {
     grid-area: name;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
 }
 
 .contact_address {
@@ -62,6 +67,24 @@ padding-left: 10px;
     text-indent: 15px;
     color: var(--textgray);
 }
+
+@media screen and (orientation: portrait) {    
+        .contact_block {
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 50px 30px 30px 1fr 380px;
+         grid-template-areas: 
+         "name"
+         "address"
+         "etc"
+         "schedule" 
+         "map"; 
+        }
+
+        .contact_logo {
+            display: none;
+        }
+  }
 
 
 
