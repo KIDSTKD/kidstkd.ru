@@ -84,6 +84,23 @@ padding-left: 10px;
         .contact_logo {
             display: none;
         }
+
+        .contact_schedule {
+            grid-area: schedule;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding-top: 0px;
+         
+        }
+
+
+        .text {
+ 
+            text-indent: 5px;
+        }
   }
 
 

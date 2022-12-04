@@ -13,9 +13,9 @@ const ContactBlock = () => {
             <div className={styles.contact_logo}>
                 <Image src={Logo} objectFit='contain' layout='fill' alt="Контакты" />
             </div>
-            <div className={styles.contact_name}><h2 className={styles.header}>Уссурийск, Фитнес-клуб &#34;Тхэквондо-Лэнд&#34;</h2></div>
+            <div className={styles.contact_name}><h2 className={styles.header}>Уссурийск, ФК &#34;Тхэквондо-Лэнд&#34;</h2></div>
             <div className={styles.contact_address}><p className={styles.text}>ул. Ленина, 41, 2 этаж</p></div>
-            <div className={styles.contact_etc}><p className={styles.text}>Тренер: Салатский Станислав Вадимович, тел. <a href="tel:+79644432986">+7(964)443 29 86</a></p></div>
+            <div className={styles.contact_etc}><p className={styles.text}>Тренер: Салатский С.В., тел. <a href="tel:+79644432986">+7(964)443 29 86</a></p></div>
             <div className={styles.contact_schedule}>
                 <div>
                     <p>Понедельник</p>
@@ -53,7 +53,7 @@ const ContactBlock = () => {
             </div>
             <div className={styles.contact_name}><h2 className={styles.header}>Уссурийск, Детский сад N 246</h2></div>
             <div className={styles.contact_address}><p className={styles.text}>ул. Октябрьская, 189</p></div>
-            <div className={styles.contact_etc}><p className={styles.text}>Тренер: Салатский Станислав Вадимович, тел. <a href="tel:+79644432986">+7(964)443 29 86</a></p></div>
+            <div className={styles.contact_etc}><p className={styles.text}>Тренер: Салатский С.В., тел. <a href="tel:+79644432986">+7(964)443 29 86</a></p></div>
             <div className={styles.contact_schedule}>
                 <div>
                     <p>Среда</p>
@@ -79,7 +79,7 @@ const ContactBlock = () => {
             </div>
             <div className={styles.contact_name}><h2 className={styles.header}>c. Михайловка, ДЮСШ</h2></div>
             <div className={styles.contact_address}><p className={styles.text}>ул. Ленинская, 38</p></div>
-            <div className={styles.contact_etc}><p className={styles.text}>Тренер: Салатский Станислав Вадимович, тел. <a href="tel:+79644432986">+7(964)443 29 86</a></p></div>
+            <div className={styles.contact_etc}><p className={styles.text}>Тренер: Салатский С.В., тел. <a href="tel:+79644432986">+7(964)443 29 86</a></p></div>
             <div className={styles.contact_schedule}>
                 <div>
                     <p>Вторник</p>
