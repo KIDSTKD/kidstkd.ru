@@ -58,7 +58,7 @@ a {
 p {
 	width: auto; 
   font-family: exo_2regular_condensed;
-  color: var(--textdark);
+  color: var(--textgray);
 	text-align: justify;
 	text-indent: 20px;
   padding-left: 15px;
@@ -75,7 +75,7 @@ li {
 
 h1 {
 	font-family: bebas_neuelight;
-  color: var(--textdark);
+  color: var(--textgray);
 	font-size:36px;
 	font-weight: 100;
 	line-height:40px;
@@ -86,7 +86,7 @@ h1 {
 
 h2 {
 	font-family: bebas_neuelight;
-  color: var(--textdark);
+  color: var(--textgray);
 	font-size:32px;
 	font-weight: 100;
 	line-height:36px;
@@ -96,7 +96,7 @@ h2 {
 
 h3 {
   font-family: bebas_neue_regularregular;
-  color: var(--textdark);
+  color: var(--textgray);
   font-weight: 100;
   padding-top: 8px;
   padding-bottom: 4px;
@@ -110,10 +110,14 @@ h4 {
 	font-weight: 100;
   font-size: 24px;
   text-align: center;	
+  color: var(--textgray);
+
 }
 
 li {
   text-indent: 20px;
+  color: var(--textgray);
+
 }
 
 
@@ -122,7 +126,7 @@ li {
   --deepblue: #255d98;
   --lightblue: #8fb8d8;
   --textdark: #151718;
-  --textgray: #434546;
+  --textgray: #2b2c2d;
   --textlight: #d9ebf4;
   --linkblue: #1d4a79;
 }

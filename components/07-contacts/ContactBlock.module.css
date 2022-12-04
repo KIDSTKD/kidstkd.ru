@@ -1,0 +1,67 @@
+.contact_block {
+padding-left: 10px;
+ display: grid;
+ grid-template-columns: 80px 1fr 1fr;
+ grid-template-rows: 50px 30px 30px 1fr;
+ grid-template-areas: 
+ "logo name map"
+ "logo address map"
+ "span etc map"
+ "schedule schedule map"; 
+}
+
+.contact_logo {
+    grid-area: logo;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    -webkit-filter: drop-shadow(3px 5px 5px #434546);
+    filter: drop-shadow(3px 5px 5px #434546);}
+
+.contact_name {
+    grid-area: name;
+}
+
+.contact_address {
+    grid-area: address;
+}
+
+.contact_etc {
+    grid-area: etc;
+}
+
+.contact_map {
+    grid-area: map;
+}
+
+.contact_schedule {
+    grid-area: schedule;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 50px;
+ 
+}
+
+
+
+.header {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    line-height: 50px;
+    text-align: left;
+}
+
+.text {
+    margin: 0px;
+    padding: 0px;
+    line-height: 30px;
+    text-indent: 15px;
+    color: var(--textgray);
+}
+
+
+

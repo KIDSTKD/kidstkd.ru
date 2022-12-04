@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import Heading from '../../components/Heading'
+import ContactBlock from '../../components/07-contacts/contactBlock'
 
 const Contacts = () => (
   <>
@@ -8,10 +9,8 @@ const Contacts = () => (
     <title>KIDSTKD - Контакты</title>
   </Head>
   <Heading text="Контакты" />
-  <h3>Уссурийск</h3>
-  <p>ул. Ленина, 41, 2 этаж (ФК &#34;Тхэквондо-Лэнд&#34;)</p>
-  <h3>c. Михайловка</h3>
-  <p>ул. Ленинская, 38 (МБОУ ДО &#34;ДЮСШ с. Михайловка&#34;)</p>
+
+  <ContactBlock />
   </>
 )
 
