@@ -1,7 +1,0 @@
-.athlets {
-display: grid;  
-grid-template-columns: repeat(auto-fill, 300px);
-grid-gap: 2vw;
-justify-content: space-around;
-padding-bottom: 10px;
-}

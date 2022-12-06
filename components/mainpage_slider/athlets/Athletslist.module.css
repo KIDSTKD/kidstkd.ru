@@ -1,0 +1,37 @@
+.athletlist_block {
+  width: 90%;
+  height: 160px;
+
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  grid-template-rows: 50px 1fr;
+  grid-template-areas: 
+  "img name"
+  "img etc";
+
+ 
+}
+
+.athletlist_block__img {
+  grid-area: img;
+  background-color: var(--lightblue);
+  border-radius: 70px;
+}
+
+.athletlist_block__name {
+  grid-area: name;
+
+  line-height: 50px;
+  font-size: 20px;
+  text-align: left;
+  text-indent: 40px;
+}
+
+.athletlist_block__etc {
+  grid-area: etc;
+
+
+}

@@ -1,182 +1,70 @@
-.slider__text {
-  
-    line-height: 26px;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-  .slider__text_bottom {
-    width: 300px;
-    height: 50px;
-    line-height: 26px;
-    font-size: 20px;
-    text-align: center;
-
-    position: relative;
-    top: 280px;
-    
-    display: table-cell;
-    vertical-align: middle;
-  }
-
-.khvana {
+.athlet_block {
 	width: 300px;
 	height: 400px;
 	scroll-snap-align: start;
 	scroll-snap-stop: always;
 	flex-shrink: 0;
-  margin-left: 10px;
-  border-radius: 5px;
-  color: var(--textlight);
-  font-family: bebas_neue_regularregular;
 
-  background-image: 
-    url(/svg/bg/top_blue.svg),
-    url(/svg/bg/bg_narrow.svg),
-    url(/img/athlets/khvana.png);
-    background-size: auto, auto, cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, bottom 0 right 0, 0 0;
+  position: relative;
+
+  margin-left: 5px;
+ 
+}
+
+.athlet_block__img {
+  position: absolute;
+  top: 0px;
+
 
 }
 
-.fedusenkoa {
-	width: 300px;
-	height: 400px;
-	scroll-snap-align: start;
-	scroll-snap-stop: always;
-	flex-shrink: 0;
-  margin-left: 10px;
-  border-radius: 5px;
-  color: var(--textlight);
-  font-family: bebas_neue_regularregular;
+.athlet_block__bg1 {
+  position: absolute;
+  top: 0px;
+  width: 300px;
+  height: 150px;
 
-  background-image: 
-    url(/svg/bg/top_blue.svg),
-    url(/svg/bg/bg_narrow.svg),
-    url(/img/athlets/fedusenkoa.png);
-    background-size: auto, auto, cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, bottom 0 right 0, 0 0;
+
+
 }
 
-.senchilod {
-	width: 300px;
-	height: 400px;
-	scroll-snap-align: start;
-	scroll-snap-stop: always;
-	flex-shrink: 0;
-  margin-left: 10px;
-  border-radius: 5px;
-  color: var(--textlight);
-  font-family: bebas_neue_regularregular;
+.athlet_block__bg2 {
+  position: absolute;
+  bottom: 0px;
+  width: 300px;
+  height: 150px;
 
-  background-image: 
-    url(/svg/bg/top_blue.svg),
-    url(/svg/bg/bg_narrow.svg),
-    url(/img/athlets/senchilod.png);
-    background-size: auto, auto, cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, bottom 0 right 0, 0 0;
+
+
 }
 
-.kime {
-	width: 300px;
-	height: 400px;
-	scroll-snap-align: start;
-	scroll-snap-stop: always;
-	flex-shrink: 0;
-  margin-left: 10px;
-  border-radius: 5px;
-  color: var(--textlight);
-  font-family: bebas_neue_regularregular;
+.athlet_block__name {
+  position: relative;
+  top: 0px;
+  width: 300px;
 
-  background-image: 
-    url(/svg/bg/top_blue.svg),
-    url(/svg/bg/bg_narrow.svg),
-    url(/img/athlets/kime.png);
-    background-size: auto, auto, cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, bottom 0 right 0, 0 0;
+  line-height: 26px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  color: var(--textlight);
+
+  text-shadow: 1px 1px 2px var(--textgray);
+
+
+
 }
 
-.jafarovai {
-	width: 300px;
-	height: 400px;
-	scroll-snap-align: start;
-	scroll-snap-stop: always;
-	flex-shrink: 0;
-  margin-left: 10px;
-  border-radius: 5px;
+.athlet_block__etc {
+  position: absolute;
+  bottom: 0px;
+  width: 300px;
+
+  line-height: 26px;
+  font-size: 20px;
+  text-align: center;
   color: var(--textlight);
-  font-family: bebas_neue_regularregular;
 
-  background-image: 
-    url(/svg/bg/top_blue.svg),
-    url(/svg/bg/bg_narrow.svg),
-    url(/img/athlets/jafarovai.png);
-    background-size: auto, auto, cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, bottom 0 right 0, 0 0;
-}
+  text-shadow: 1px 1px 2px var(--textgray);
 
-.simontovskayav {
-	width: 300px;
-	height: 400px;
-	scroll-snap-align: start;
-	scroll-snap-stop: always;
-	flex-shrink: 0;
-  margin-left: 10px;
-  border-radius: 5px;
-  color: var(--textlight);
-  font-family: bebas_neue_regularregular;
-
-  background-image: 
-    url(/svg/bg/top_blue.svg),
-    url(/svg/bg/bg_narrow.svg),
-    url(/img/athlets/simontovskayav.png);
-    background-size: auto, auto, cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, bottom 0 right 0, 0 0;
-}
-
-.ukhabotini {
-	width: 300px;
-	height: 400px;
-	scroll-snap-align: start;
-	scroll-snap-stop: always;
-	flex-shrink: 0;
-  margin-left: 10px;
-  border-radius: 5px;
-  color: var(--textlight);
-  font-family: bebas_neue_regularregular;
-
-  background-image: 
-    url(/svg/bg/top_blue.svg),
-    url(/svg/bg/bg_narrow.svg),
-    url(/img/athlets/ukhabotini.png);
-    background-size: auto, auto, cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, bottom 0 right 0, 0 0;
-}
-
-.shapovalovm {
-	width: 300px;
-	height: 400px;
-	scroll-snap-align: start;
-	scroll-snap-stop: always;
-	flex-shrink: 0;
-  margin-left: 10px;
-  border-radius: 5px;
-  color: var(--textlight);
-  font-family: bebas_neue_regularregular;
-
-  background-image: 
-    url(/svg/bg/top_blue.svg),
-    url(/svg/bg/bg_narrow.svg),
-    url(/img/athlets/shapovalovm.png);
-    background-size: auto, auto, cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, bottom 0 right 0, 0 0;
 }
