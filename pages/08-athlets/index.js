@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import Heading from '../../components/Heading'
 
-import AthletList from '../../components/mainpage_slider/athlets/athletList'
+import AthletList from '../../components/mainpage_slider/athlets/athletlist'
 
 
 
@@ -15,7 +15,7 @@ const Contacts = () => (
   </Head>
   <Heading text="Лучшие спортсмены" />
 
-
+  <AthletList />
 
 
 
