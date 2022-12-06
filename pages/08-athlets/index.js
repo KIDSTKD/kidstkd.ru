@@ -15,7 +15,7 @@ const Contacts = () => (
   </Head>
   <Heading text="Лучшие спортсмены" />
 
-  <AthletList />
+
 
 
 
