@@ -19,6 +19,9 @@
     grid-area: img;
     width: 75px;
     height: 75px;
+
+    -webkit-filter: drop-shadow(3px 5px 5px #434546);
+    filter: drop-shadow(3px 5px 5px #434546);
   }
 
   .docs_1line {

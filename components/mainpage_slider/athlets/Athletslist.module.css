@@ -16,6 +16,9 @@
   width: 160px;
   background-color: var(--lightblue);
   border-radius: 80px;
+
+  -webkit-filter: drop-shadow(3px 5px 5px #434546);
+  filter: drop-shadow(3px 5px 5px #434546);
 }
 
 .athletlist_block__name {

@@ -13,7 +13,7 @@ const AthletList = () => {
             
             <Link key={id} href={link}> 
                 <div className={styles.athletlist_block}>
-                    <Image className={styles.athletlist_block__img} src={athletImg} alt={athletName} width={137} height={160} />
+                    <Image className={styles.athletlist_block__img} src={athletImg} alt={athletName} width={100} height={160}/>
                     <h4 className={styles.athletlist_block__name}>{athletName}</h4>
                     <p className={styles.athletlist_block__etc}>{grade}, {title}</p> 
                 </div>
