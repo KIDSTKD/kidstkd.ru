@@ -33,6 +33,8 @@
     text-align: justify;
     margin-left: 5px;
     line-height: 25px;
+
+    padding-left: 15px;
     
     overflow: hidden; 
     text-overflow: ellipsis; 
@@ -55,6 +57,9 @@
       overflow-y: hidden;
       text-overflow: ellipsis; 
       color: var(--textgray);
+
+      padding-left: 15px;
+
 
       white-space: nowrap;
       overflow: hidden; 

@@ -71,7 +71,7 @@ export const NewsLink = [
     {title2: "2021", path2: "/03-news/2021"},
     {title2: "2020", path2: "/03-news/2020"},
     {title2: "2019", path2: "/03-news/2019"},
-    {title2: "...архив...", path2: "/"},
+    {title2: "...архив...", path2: "/03-news/archive"},
 ]
 
 export const CalendarLink = [
