@@ -57,6 +57,15 @@
       float: right;
       margin: 5px;
     }
+
+    .image_gallary {
+      width: 33%;
+      height: 240px;
+      position: relative;
+      float: left;  
+    }
+
+ 
     
     
     
@@ -120,6 +129,14 @@
           width: 100%;
           position: relative;
           margin-right: 0px;
+        }
+
+
+        .image_gallary {
+          width: 100%;
+          height: 240px;
+          position: relative;
+          float: left;  
         }
 
     }
