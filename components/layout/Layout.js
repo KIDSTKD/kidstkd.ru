@@ -26,6 +26,9 @@ const Layout = ({ children }) => (
          <Footer />
          <MobileFooter />
       </div>
+
+
+
      </>
 );
 
