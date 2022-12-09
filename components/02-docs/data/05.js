@@ -15,7 +15,7 @@ const Docs02 = [
         p: 'Daedo GEN1 Release, Macos', 
         date: '17.11.2022',
         number: '3.2.4',
-        link: '/docs/tkStrikeGen1-3.2.4.pkg'
+        link: 'https://t.me/c/1259400119/34'
     },
 
     { 
@@ -31,9 +31,9 @@ const Docs02 = [
         id: 1, 
         img: '/img/02/05/daedo.png', 
         p: 'Daedo GEN2 Release, Macos', 
-        date: '17.11.2022',
+        date: '',
         number: '3.2.2',
-        link: '/docs/tkStrikeGen2-3.2.2.pkg'
+        link: 'https://t.me/c/1259400119/36'
     },
 
     { 
@@ -43,6 +43,15 @@ const Docs02 = [
         date: '',
         number: '3.1.12',
         link: 'https://t.me/c/1259400119/32'
+    },
+
+    { 
+        id: 1, 
+        img: '/img/02/05/daedo.png', 
+        p: 'Daedo GEN1 Release, x64', 
+        date: '',
+        number: '3.1.12',
+        link: 'https://t.me/c/1259400119/35'
     },
 
 
