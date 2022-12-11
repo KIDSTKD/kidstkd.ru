@@ -17,3 +17,17 @@ module.exports = {
     ]
   },
 }
+
+module.exports = nextConfig
+
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/pages/05/01/:path*',
+        destination: '/05-taekwondo/articles',
+        permanent: false
+      }
+    ]
+  },
+}
