@@ -22,7 +22,7 @@ const Athlet = () => {
             <div className={styles.athlet_block}>
 
 
-                <Image className={styles.athlet_block__img} src={athletImg} alt={athletName} width={300} height={350} />
+                <Image className={styles.athlet_block__img} src={athletImg} alt={athletName} width={350} height={350} />
                 <Image className={styles.athlet_block__bg1} src={BG1} alt={athletName} />
                 <Image className={styles.athlet_block__bg2} src={BG2} alt={athletName} />
 
