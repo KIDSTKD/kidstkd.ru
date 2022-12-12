@@ -19,6 +19,12 @@ module.exports = {
         source: '/pages/05/01/:path*',
         destination: '/05-taekwondo/articles',
         permanent: false
+      },
+
+      {
+        source: '/pages/05/09/',
+        destination: '/05-taekwondo/rules',
+        permanent: false
       }
     ]
   },
