@@ -22,7 +22,7 @@ module.exports = {
       },
 
       {
-        source: '/pages/05/09/',
+        source: '/pages/05/09.html',
         destination: '/05-taekwondo/rules',
         permanent: false
       }
