@@ -21,7 +21,6 @@ const Taekwondo = () => (
     <li>разбивание предметов (кёкпха)</li>
     <li>аттестации на пояса</li>
 
-    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/chF4rvPSJfQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   </>
 )
