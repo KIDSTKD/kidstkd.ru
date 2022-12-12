@@ -74,7 +74,7 @@
     .left_side {
         position: absolute;
         width: 70%;
-        height: 100%;
+        height: calc(100wh - 56px);
         left: 0px;
         top: 0px;
         left: -70%;
