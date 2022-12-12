@@ -25,7 +25,13 @@ module.exports = {
         source: '/pages/05/09.html',
         destination: '/05-taekwondo/rules',
         permanent: false
-      }
+      },
+
+      {
+        source: '/pages/05/02.html',
+        destination: '/05-taekwondo/kibon',
+        permanent: false
+      },
     ]
   },
 }
