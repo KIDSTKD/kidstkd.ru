@@ -28,7 +28,7 @@ module.exports = {
       },
 
       {
-        source: '/pages/05/02.html',
+        source: '/pages/05/:path*',
         destination: '/05-taekwondo/kibon',
         permanent: false
       },
