@@ -74,9 +74,9 @@
     .left_side {
         position: absolute;
         width: 70%;
-        height: calc(100wh - 56px);
         left: 0px;
         top: 0px;
+        bottom: 56px;
         left: -70%;
         z-index: 9;
         opacity: 0.97;
