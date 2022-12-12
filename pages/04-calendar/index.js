@@ -6,25 +6,14 @@ import Month from '../../components/04-calendar/month'
 
 import {jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec} from "../../components/04-calendar/data/2022"
 
-{jan}
-{feb}
-{mar}
-{apr}
-{may}
-{jun}
-{jul}
-{aug}
-{sep}
-{oct}
-{nov}
-{dec}
+
 
 const Calendar = () => (
   <>
   <Head>
     <title>KIDSTKD - Календарь</title>
   </Head>
-  <Heading text="Календарь - 2022" />
+  <Heading text="Календарь" />
 
   <Month text="Январь" />
   <div>

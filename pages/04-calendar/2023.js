@@ -7,11 +7,7 @@ import styles from '../../components/04-calendar/Month.module.css'
 
 import {jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec} from "../../components/04-calendar/data/2023.js"
 
-export default function CalendarID () {
-  const router = useRouter ();
-  const { id } = router.query;
-
-  return (
+const Calendar = () => (
   <>
   <Head>
     <title>KIDSTKD - Календарь 2023</title>
@@ -137,8 +133,7 @@ export default function CalendarID () {
         </div></>
     ))}
   </div>
-
   </>
 )
 
-}
+export default Calendar
