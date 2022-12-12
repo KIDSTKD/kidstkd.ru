@@ -5,7 +5,7 @@ const Docs06 = [
         img: '/svg/docs/doc-svgrepo-com.svg', 
         p: 'Анкета занимающегося', 
         etc: '',
-        link: '../src/docs/06/inquiry_ussuriysk.doc'
+        link: '../docs/06/inquiry_ussuriysk.doc'
     },
 
 
