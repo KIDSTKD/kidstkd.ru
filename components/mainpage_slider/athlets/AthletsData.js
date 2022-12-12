@@ -20,7 +20,7 @@ const AthletsData = [
     { 
         id: 3, 
         athletName: 'Сенчило Дмитрий',
-        athletImg: '/img/athlets/senchilod.png',
+        athletImg: '/img/athlets/none.png',
         grade: 'КМС',
         title: 'Бронзовый призер Международных спортивных игр "Дети Азии 2022"',
         link: '/08-athlets'
@@ -56,7 +56,7 @@ const AthletsData = [
     { 
         id: 7, 
         athletName: 'Симонтовская Виктория',
-        athletImg: '/img/athlets/simontovskaya.png',
+        athletImg: '/img/athlets/none.png',
         grade: 'II разряд',
         title: 'Призер Первенств Приморского края, ДФО, Всероссийских турниров',
         link: '/08-athlets'
@@ -65,7 +65,7 @@ const AthletsData = [
     { 
         id: 8, 
         athletName: 'Ухаботин Иван',
-        athletImg: '/img/athlets/ukhabotini.png',
+        athletImg: '/img/athlets/none.png',
         grade: 'II разряд',
         title: 'Призер Первенств Приморского края, ДФО, Всероссийских турниров',
         link: '/08-athlets'
