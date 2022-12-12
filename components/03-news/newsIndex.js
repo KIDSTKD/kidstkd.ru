@@ -8,7 +8,7 @@ import News21 from "./data/2021.js"
 const NewsAll = [...News22, ...News21];
 
 
-var NewsLast6 = NewsAll.slice(-0,6)
+let NewsLast6 = NewsAll.slice(-0,6)
 
 
 const NewsBlock = () => {

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import ArticlesData from "./articlesData"
 
-var ArticlesLast6 = ArticlesData.slice(-0,6)
+let ArticlesLast6 = ArticlesData.slice(-0,6)
 
 
 const ArticlesBlock = () => {

@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import DocsBlockIndex from '../../components/02-docs/DocsBlockIndex'
 import Heading from '../../components/Heading'
 
 const Documents = () => (
@@ -8,7 +8,7 @@ const Documents = () => (
     <title>KIDSTKD - Докуменеты</title>
   </Head>
   <Heading text="Документы" />
-  <p>Уважаемые посетители сайта, данный раздел находится в разработке, в самое ближайшее время мы наполним его информацией. Приносим свои извинения, всю интересующую вас информацию вы можете получить по телефону <a href="tel:+79644432986">+7(964)443 29 86</a></p>
+  <DocsBlockIndex />
   </>
 )
 
