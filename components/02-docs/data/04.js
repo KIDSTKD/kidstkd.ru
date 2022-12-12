@@ -1,6 +1,6 @@
-const Docs02 = [
+const Docs04 = [
     { 
-        id: 1, 
+        id: 4, 
         img: '/svg/docs/pdf-svgrepo-com.svg', 
         p: 'WT Competition Rules & Interpretation', 
         date: 'September 1, 2022',
@@ -9,7 +9,7 @@ const Docs02 = [
     },
 
     { 
-        id: 1, 
+        id: 3, 
         img: '/svg/docs/pdf-svgrepo-com.svg', 
         p: 'Changes made for WT Competition Rules & Interpretation', 
         date: 'September 1, 2022',
@@ -18,7 +18,7 @@ const Docs02 = [
     },
 
     { 
-        id: 1, 
+        id: 2, 
         img: '/svg/docs/pdf-svgrepo-com.svg', 
         p: 'World Para Taekwondo Competition Rules', 
         date: 'April 29, 2022',
@@ -43,4 +43,4 @@ const Docs02 = [
 ];
 
 
-export default Docs02
+export default Docs04

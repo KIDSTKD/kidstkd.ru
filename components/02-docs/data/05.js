@@ -1,7 +1,7 @@
-const Docs02 = [
+const Docs05 = [
 
     { 
-        id: 1, 
+        id: 6, 
         img: '/img/02/05/kpnp.png', 
         p: 'KPNP', 
         date: '11.10.2022',
@@ -10,7 +10,7 @@ const Docs02 = [
     },
 
     { 
-        id: 1, 
+        id: 5, 
         img: '/img/02/05/daedo.png', 
         p: 'Daedo GEN1 Release, Macos', 
         date: '17.11.2022',
@@ -19,7 +19,7 @@ const Docs02 = [
     },
 
     { 
-        id: 1, 
+        id: 4, 
         img: '/img/02/05/kpnp.png', 
         p: 'KPNP', 
         date: '31.05.2022',
@@ -28,7 +28,7 @@ const Docs02 = [
     },
 
     { 
-        id: 1, 
+        id: 3, 
         img: '/img/02/05/daedo.png', 
         p: 'Daedo GEN2 Release, Macos', 
         date: '',
@@ -37,7 +37,7 @@ const Docs02 = [
     },
 
     { 
-        id: 1, 
+        id: 2, 
         img: '/img/02/05/daedo.png', 
         p: 'Daedo GEN1 Release, Macos', 
         date: '',
@@ -59,4 +59,4 @@ const Docs02 = [
 ];
 
 
-export default Docs02
+export default Docs05

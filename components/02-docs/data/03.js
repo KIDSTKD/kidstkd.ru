@@ -1,4 +1,4 @@
-const Docs02 = [
+const Docs03 = [
     { 
         id: 1, 
         img: '/svg/docs/doc-svgrepo-com.svg', 
@@ -20,4 +20,4 @@ const Docs02 = [
 ];
 
 
-export default Docs02
+export default Docs03
