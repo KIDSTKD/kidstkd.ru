@@ -72,6 +72,7 @@
         justify-content: space-around;
         padding-top: 13px;
         padding-bottom: 13px;
+        z-index: 99;
     }
    
     .hidden_menu {
