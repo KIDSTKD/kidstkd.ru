@@ -1,6 +1,6 @@
 const Docs04 = [
     { 
-        id: 4, 
+        id: 5, 
         img: '/svg/docs/pdf-svgrepo-com.svg', 
         p: 'WT Competition Rules & Interpretation', 
         date: 'September 1, 2022',
@@ -9,7 +9,7 @@ const Docs04 = [
     },
 
     { 
-        id: 3, 
+        id: 4, 
         img: '/svg/docs/pdf-svgrepo-com.svg', 
         p: 'Changes made for WT Competition Rules & Interpretation', 
         date: 'September 1, 2022',
@@ -18,12 +18,21 @@ const Docs04 = [
     },
 
     { 
-        id: 2, 
+        id: 3, 
         img: '/svg/docs/pdf-svgrepo-com.svg', 
         p: 'World Para Taekwondo Competition Rules', 
         date: 'April 29, 2022',
         number: 'ENG',
         link: 'http://www.worldtaekwondo.org/viewer_pdf/external/pdfjs-2.1.266-dist/web/viewer.html?file=http://www.worldtaekwondo.org/att_file/documents/World%20Para%20Taekwondo%20Competition%20Rules%20as%20of%20April%2029,%202022.pdf'
+    },
+
+    { 
+        id: 2, 
+        img: '/svg/docs/pdf-svgrepo-com.svg', 
+        p: 'ПРАВИЛА ВИДА СПОРТА «ТХЭКВОНДО»', 
+        date: 'от 29 марта 2022 г. No 263',
+        number: 'УТВЕРЖДЕНЫ приказом Министерством спорта Российской Федерации',
+        link: 'https://tkdrussia.ru/wp-content/uploads/2022/06/тхэквондо-ВТ-2022.pdf'
     },
 
     { 

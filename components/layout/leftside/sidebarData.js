@@ -54,6 +54,7 @@ export const AboutLink = [
 export const DocsLink = [
 
     {title2: "Федеральные законы", path2: "/02-docs/01"},
+    {title2: "Нормативные документы", path2: "/02-docs/regulations"},
     {title2: "Наградные приказы", path2: "/02-docs/02"},
     {title2: "Положение и протоколы", path2: "/02-docs/03"},
     {title2: "Правила соревнований", path2: "/02-docs/04"},
