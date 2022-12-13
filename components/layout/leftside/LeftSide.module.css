@@ -74,6 +74,11 @@
 
 
     .left_side {
+        grid-area: left_side;
+        background-color: var(--deepblue);
+        color: var(--textlight);
+        height: calc(100vh - 56px);
+
         position: absolute;
         width: 70%;
         left: 0px;
@@ -83,6 +88,7 @@
     }
 
 
+ 
 
  
 
