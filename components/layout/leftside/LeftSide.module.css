@@ -78,9 +78,7 @@
 
         position: fixed;
         width: 70%;
-        left: 0px;
-        top: 0px;
-        bottom: 56px;
+        height: 400px;
         left: -70%;
         opacity: 0.97;
 
