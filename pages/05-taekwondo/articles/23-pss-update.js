@@ -9,6 +9,15 @@ const Taekwondo = () => (
   <>
   <Head>
     <title>Обновление PSS (DAEDO, KPNP)</title>
+    <meta property="og:url" content="https://kidstkd.ru/05-taekwondo/articles/23-pss-update" />
+    <meta property="og:title" content="Обновление PSS (DAEDO, KPNP)" />
+    <meta property="og:description" content="Вслед за изменениями правил, производители аккредитованных систем электронного судейства обновили программное обеспечение." />
+    <meta property="og:image" content="https://kidstkd.ru/_next/image?url=%2Fimg%2F05%2Farticles%2F23%2F01.png&w=3840&q=75" />
+    <meta property="og:site_name" content="KIDSTKD" />
+    
+
+
+
   </Head>
   <Heading text="Обновление PSS (DAEDO, KPNP)" />
   <div className={styles.articles_logo}>
