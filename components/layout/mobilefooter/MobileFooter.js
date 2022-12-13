@@ -1,5 +1,4 @@
 import { useRouter } from "next/router";
-import { useState } from "react";
 
 import LeftSideM from "../leftside/LeftSideM";
 import styles from "../mobilefooter/MobileFooter.module.css"
