@@ -6,6 +6,8 @@
     color: var(--textlight);
     position: sticky;
     top: 0;
+    z-index: 12;
+
 
 }
 
@@ -74,13 +76,10 @@
     .left_side {
         position: absolute;
         width: 70%;
-        height: calc(100% - 56px);
         left: 0px;
         top: 0px;
-        bottom: 56px;
         left: -70%;
         opacity: 0.97;
-        z-index: 12;
     }
 
 
