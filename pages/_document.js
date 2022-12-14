@@ -7,7 +7,7 @@ export default function Document() {
         <meta name="msapplication-TileColor" content="#255d98" />
         <meta name="theme-color" content="#255d98" /> 
 
-        <meta property="og:site_name" content="KIDSTKD - ТХЭКВОНДО в УССУРИЙСКЕ" key="kidstkd"/>
+        <meta property="og:site_name" content="KIDSTKD - ТХЭКВОНДО в УССУРИЙСКЕ" key="sitename"/>
 
       </Head>
       <body>
