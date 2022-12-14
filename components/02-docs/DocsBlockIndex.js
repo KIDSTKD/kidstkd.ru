@@ -23,7 +23,7 @@ const DocsBlockIndex = () => {
        
         <>    
 
-        <Link href='../02-docs/01'><h2>Федеральные законы</h2></Link>
+        <Link href='../02-docs/laws'><h2>Федеральные законы</h2></Link>
         {Docs01Sliced.map(({id, img, p, number, date, link}) => (
             <Link key={id} href={link}> 
 

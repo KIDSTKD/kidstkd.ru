@@ -45,15 +45,15 @@ export const SidebarData = [
 export const AboutLink = [
     {title2: "Куда отдать ребенка?", path2: "/01-about-us/01"},
     {title2: "Тхэквондо для детей", path2: "/01-about-us/02"},
-    {title2: "Аттестация", path2: "/01-about-us/03"},
+    {title2: "Аттестация", path2: "/01-about-us/belttest"},
     {title2: "УОЛ и УТМ", path2: "/01-about-us/04"},
-    {title2: "Расписание занятий", path2: "/01-about-us/05"},
-    {title2: "Тренерский коллектив", path2: "/01-about-us/06"}
+    {title2: "Расписание занятий", path2: "/01-about-us/schedule"},
+    {title2: "Тренерский коллектив", path2: "/01-about-us/coach"}
 ]
 
 export const DocsLink = [
 
-    {title2: "Федеральные законы", path2: "/02-docs/01"},
+    {title2: "Федеральные законы", path2: "/02-docs/laws"},
     {title2: "Нормативные документы", path2: "/02-docs/regulations"},
     {title2: "Наградные приказы", path2: "/02-docs/02"},
     {title2: "Положение и протоколы", path2: "/02-docs/03"},
