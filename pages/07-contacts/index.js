@@ -1,7 +1,12 @@
 import Head from 'next/head'
 
 import Heading from '../../components/Heading'
-import ContactBlock from '../../components/07-contacts/contactBlock'
+import ContactBlockLenina41 from '../../components/07-contacts/contactBlockLenana41'
+import ContactBlockDS246 from '../../components/07-contacts/contactBlockDS246'
+import ContactBlockMikhailovka from '../../components/07-contacts/contactBlockMikhailovka'
+import ContactBlockMikhaylovkaDS from '../../components/07-contacts/contactBlockMikhaylovkaDS'
+
+
 
 const Contacts = () => (
   <>
@@ -10,7 +15,11 @@ const Contacts = () => (
   </Head>
   <Heading text="Контакты" />
 
-  <ContactBlock />
+  <ContactBlockLenina41 />
+  <ContactBlockDS246 />
+  <ContactBlockMikhailovka />
+  <ContactBlockMikhaylovkaDS />
+
   </>
 )
 
