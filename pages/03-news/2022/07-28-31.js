@@ -4,24 +4,7 @@ import styles from '../../../components/03-news/NewsBlock.module.css'
 import News22 from '../../../components/03-news/data/2022';
 
 
-
-// const Event2 = News22.filter(function (e) {
-//   return e.id === '10';
-// });
-// console.log(Event2)
-
-const Event = 
-
-  { 
-    id: 10, 
-    path: '/img/03/2022/07/28-31/01.jpg', 
-    date: '28-31 июля',
-    place: 'г. Владивосток',
-    title: 'Международные спортивные игры Дети Азии', 
-    p: 'Уважаемые посетители сайта, данный раздел находится в разработке, в самое ближайшее время мы наполним его информацией. Приносим свои извинения, всю интересующую вас информацию вы можете получить по телефону +7(964)443 29 86', 
-    link: '/03-news/2022/07-28-31'
-}
-
+let Event = News22.find(item => item.id == 10);
 let EventTitle = `${Event.date} - ${Event.title}, ${Event.place}`
 let EventURL = `https://kidstkd.ru${Event.link}`
 let EventImg = `https://kidstkd.ru${Event.path}`
@@ -43,7 +26,7 @@ const News1 = () => (
         <Image src={Event.path} objectFit='cover' layout='fill' alt={Event.title}/>
     </div>
     <p></p>
-    <p>{EventTitle}</p>
+
   </>
 )
 

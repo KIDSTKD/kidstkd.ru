@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Heading from '../../../components/Heading'
 import Image from "next/legacy/image";
 import Link from 'next/link';
 import styles from '../../../components/03-news/NewsBlock.module.css'
+import News22 from '../../../components/03-news/data/2022';
 
 
 const Images = [
@@ -45,15 +45,26 @@ const Images = [
 
 ];
 
+let Event = News22.find(item => item.id == 14);
+let EventTitle = `${Event.date} - ${Event.title}, ${Event.place}`
+let EventURL = `https://kidstkd.ru${Event.link}`
+let EventImg = `https://kidstkd.ru${Event.path}`
+
+
 const News1 = () => (
   <>
    <Head>
-    <title>28 октября 2022 - Кубок Приморского края, г. Владивосток</title>
+    <title>{EventTitle}</title>
+    <meta property="og:url" content={EventURL} />
+    <meta property="og:title" content={EventTitle} />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content={Event.p} />
+    <meta property="og:image" content={EventImg} />
+    
    </Head>
-    <Heading text="28 октября 2022 - Кубок Приморского края, г. Владивосток" />
-
+   <h1>{Event.date} - {Event.title}, {Event.place}</h1>
     <div className={styles.news_logo}>
-        <Image src='/img/03/2022/10/28/01.jpg' objectFit='cover' layout='fill' alt='28 октября 2022 - Кубок Приморского края, г. Владивосток'/>
+        <Image src={Event.path} objectFit='cover' layout='fill' alt={Event.title}/>
     </div>
 
     

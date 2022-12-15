@@ -1,18 +1,29 @@
 import Head from 'next/head'
-import Heading from '../../../components/Heading'
 import Image from "next/legacy/image";
 import styles from '../../../components/03-news/NewsBlock.module.css'
+import News22 from '../../../components/03-news/data/2022';
+
+
+let Event = News22.find(item => item.id == 15);
+let EventTitle = `${Event.date} - ${Event.title}, ${Event.place}`
+let EventURL = `https://kidstkd.ru${Event.link}`
+let EventImg = `https://kidstkd.ru${Event.path}`
 
 
 const News1 = () => (
   <>
    <Head>
-    <title>12 ноября 2022 - Открытое Первенство Спортивного клуба Барсы, г. Хабаровск</title>
+    <title>{EventTitle}</title>
+    <meta property="og:url" content={EventURL} />
+    <meta property="og:title" content={EventTitle} />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content={Event.p} />
+    <meta property="og:image" content={EventImg} />
+    
    </Head>
-    <Heading text="12 ноября 2022 - Открытое Первенство Спортивного клуба Барсы, г. Хабаровск" />
-
+   <h1>{Event.date} - {Event.title}, {Event.place}</h1>
     <div className={styles.news_logo}>
-        <Image src='/img/03/2022/11/12/01.jpg' objectFit='cover' layout='fill' alt='12 ноября 2022 - Открытое Первенство Спортивного клуба Барсы, г. Хабаровск'/>
+        <Image src={Event.path} objectFit='cover' layout='fill' alt={Event.title}/>
     </div>
 
     <p>12 Ноябре в г. Хабаровск прошел ежегодный Чемпионат и Первенство спортивного клуба Барсы. В соревнованиях приняли участие более 300 участников с Хабаровского, Камчатского, Приморского краёв, а также Сахалинской области. </p>
