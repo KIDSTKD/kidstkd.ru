@@ -14,13 +14,13 @@ const News1 = () => (
   <>
    <Head>
     <title>{EventTitle}</title>
-    <meta property="og:url" content={EventURL} />
-    <meta property="og:title" content={EventTitle} />
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content={Event.p} />
-    <meta property="og:image" content={EventImg} />
-    
+    <meta property="og:url" content={EventURL}  key="url" />
+    <meta property="og:title" content={EventTitle}  key="title" />
+    <meta property="og:type" content="article"  key="type" />
+    <meta property="og:description" content={Event.p}  key="description"/>
+    <meta property="og:image" content={EventImg}  key="image" />
    </Head>
+
    <h1>{Event.date} - {Event.title}, {Event.place}</h1>
     <div className={styles.news_logo}>
         <Image src={Event.path} objectFit='cover' layout='fill' alt={Event.title}/>
