@@ -16,8 +16,6 @@ export default function Document() {
         <meta property="og:description" content="Мы приглашаем детей от 4 лет на занятия олимпийским видом спорта. Занятия проходят в мини-группах детей одного возраста, что обеспечивает положительный результат занятий. Занятия охватывают все аспекты тхэквондо, и включают в себя базовую подготовку, обучение ударной технике, обучение техническому комплексу пхумсэ."  key="description"/>
         <meta property="og:image" content="https://kidstkd.ru/img/logo_black.png"  key="image" />
            
-        
-
       </Head>
       <body>
         <Main />
