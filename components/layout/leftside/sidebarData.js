@@ -76,10 +76,10 @@ export const NewsLink = [
 ]
 
 export const CalendarLink = [
+    {title2: "2023", path2: "/04-calendar/2023"},
     {title2: "2022", path2: "/04-calendar/2022"},
     {title2: "2021", path2: "/04-calendar/2021"},
     {title2: "2020", path2: "/04-calendar/2020"},
-    {title2: "2019", path2: "/04-calendar/2019"},
     {title2: "...архив...", path2: "/04-calendar/archive"},
 ]
 
