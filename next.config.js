@@ -9,11 +9,16 @@ module.exports = nextConfig
 module.exports = {
   async redirects() {
     return [
-      {
-        source: '/pages/01/:path*',
-        destination: '/01-about-us/03',
-        permanent: false
-      },
+      { source: '/pages/01/03.html', destination: '/01-about-us/belttest', permanent: false },
+      { source: '/pages/01/03_10-9.html', destination: '/01-about-us/belttest', permanent: false },
+      { source: '/pages/01/03_8.html', destination: '/01-about-us/belttest', permanent: false },
+      { source: '/pages/01/03_7.html', destination: '/01-about-us/belttest', permanent: false },
+      { source: '/pages/01/03_6.html', destination: '/01-about-us/belttest', permanent: false },
+      { source: '/pages/01/03_5.html', destination: '/01-about-us/belttest', permanent: false },
+      { source: '/pages/01/03_4.html', destination: '/01-about-us/belttest', permanent: false },
+      { source: '/pages/01/03_3.html', destination: '/01-about-us/belttest', permanent: false },
+      { source: '/pages/01/03_2.html', destination: '/01-about-us/belttest', permanent: false },
+      { source: '/pages/01/03_1.html', destination: '/01-about-us/belttest', permanent: false },
 
       {
         source: '/pages/05/01/:path*',
