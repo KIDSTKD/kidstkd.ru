@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import Heading from '../../components/Heading'
 
 import Belst from '../../public/img/01/belttest/belts.png'
