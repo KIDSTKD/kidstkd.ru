@@ -59,7 +59,7 @@ export const DocsLink = [
     {title2: "Положение и протоколы", path2: "/02-docs/03"},
     {title2: "Правила соревнований", path2: "/02-docs/04"},
     {title2: "Секритариат, E-PSS", path2: "/02-docs/05"},
-    {title2: "Прочее", path2: "/02-docs/06"},
+    {title2: "Прочее", path2: "/02-docs/other"},
 
 
 

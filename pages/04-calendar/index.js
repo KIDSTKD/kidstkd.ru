@@ -4,7 +4,7 @@ import styles from '../../components/04-calendar/Month.module.css'
 
 import Month from '../../components/04-calendar/month'
 
-import {jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec} from "../../components/04-calendar/data/2022"
+import {jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec} from "../../components/04-calendar/data/2023"
 
 
 
@@ -13,7 +13,7 @@ const Calendar = () => (
   <Head>
     <title>KIDSTKD - Календарь</title>
   </Head>
-  <Heading text="Календарь" />
+  <Heading text="Календарь 2023" />
 
   <Month text="Январь" />
   <div>

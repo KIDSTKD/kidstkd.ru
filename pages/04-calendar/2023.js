@@ -12,7 +12,7 @@ const Calendar = () => (
   <Head>
     <title>KIDSTKD - Календарь 2023</title>
   </Head>
-  <Heading text="Календарь - 2023" />
+  <Heading text="Календарь 2023" />
 
   <Month text="Январь" />
   <div>

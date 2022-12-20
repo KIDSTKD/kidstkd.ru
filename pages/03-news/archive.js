@@ -10,10 +10,10 @@ const News = () => (
    </Head>
     <Heading text="Новости - Архив" />
 
-    <p><Link href={'../../../03-news/2022'}>Новости 2022</Link></p>
-    <p><Link href={'../../../03-news/2021'}>Новости 2021</Link></p>
-    <p><Link href={'../../../03-news/2020'}>Новости 2020</Link></p>
-    <p><Link href={'../../../03-news/2019'}>Новости 2019</Link></p>
+    <p><Link href={'../../../03-news/2022'} className='link' >Новости 2022</Link></p>
+    <p><Link href={'../../../03-news/2021'} className='link' >Новости 2021</Link></p>
+    <p><Link href={'../../../03-news/2020'} className='link' >Новости 2020</Link></p>
+    <p><Link href={'../../../03-news/2019'} className='link' >Новости 2019</Link></p>
 
 
   

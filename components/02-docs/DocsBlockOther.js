@@ -5,7 +5,7 @@ import Link from "next/link";
 import Docs06 from "./data/06.js"
 
 
-const DocsBlock06 = () => {
+const DocsBlockOther = () => {
     return (
         <> 
                
@@ -27,5 +27,5 @@ const DocsBlock06 = () => {
     );
 }
 
-export default DocsBlock06;
+export default DocsBlockOther;
 
