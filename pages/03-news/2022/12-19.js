@@ -26,6 +26,7 @@ const Images = [
   { id: "13", src: "/img/03/2022/12/19/13.jpeg", alt: `${EventTitle}`,},
   { id: "14", src: "/img/03/2022/12/19/14.jpeg", alt: `${EventTitle}`,},
   { id: "15", src: "/img/03/2022/12/19/15.jpeg", alt: `${EventTitle}`,},
+  { id: "16", src: "/img/03/2022/12/19/16.jpeg", alt: `${EventTitle}`,},
  
 
 ];

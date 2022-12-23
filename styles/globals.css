@@ -151,6 +151,7 @@ li {
 .image {
   height: 100%;
   height: auto;
+  padding: 10px;
   position: relative;
 }
 
