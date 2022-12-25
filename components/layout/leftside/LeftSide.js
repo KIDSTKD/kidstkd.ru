@@ -14,8 +14,8 @@ const LeftSide = () => {
 
     const { pathname } = useRouter();
     return (
-            
-            <div className={styles.left_side}>
+            <>
+                        <div className={styles.left_side}>
                 {SidebarData.map(({ id, title, path}) => (
                    <> 
                    <Link key={id} href={path}>
@@ -60,6 +60,8 @@ const LeftSide = () => {
 
                 ))}
             </div>  
+            
+            </>
 
             
             );

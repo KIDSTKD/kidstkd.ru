@@ -7,10 +7,10 @@ import Link from "next/link";
 
 const navigation = [
     // { id: 1, title: 'menu', title2: 'menu_pressed', path: '/' },
-    { id: 2, title: 'bookmark', title2: 'bookmark_pressed', path: '/01_about' },
+    { id: 2, title: 'bookmark', title2: 'bookmark_pressed', path: '/05-taekwondo/articles' },
     { id: 3, title: 'home', title2: 'home_pressed', path: '/' },
-    { id: 4, title: 'search', title2: 'search_pressed', path: '/03' },
-    { id: 5, title: 'settings', title2: 'settings_pressed', path: '/04' }
+    { id: 4, title: 'search', title2: 'search_pressed', path: '/search' },
+    { id: 5, title: 'settings', title2: 'settings_pressed', path: '/login' }
 ];
 
 
