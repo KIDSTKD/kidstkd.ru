@@ -1,0 +1,43 @@
+.belts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 20px;
+
+}
+
+.belt {
+  background-color: var(--lightblue);
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  padding-left: 30px;
+  padding-top: 60px;
+  transition: all 0.3s ease;
+
+}
+
+.belt:hover {
+  background-color: var(--deepblue);
+  transition: all 0.3s ease;
+
+}
+
+
+
+
+
+
+
+@media screen and (orientation: portrait) {  
+  .belts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .belt {
+margin-bottom: 30px;
+  }
+
+}
