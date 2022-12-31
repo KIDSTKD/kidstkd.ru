@@ -30,21 +30,21 @@ const About = () => (
     <h3>Аттестационные требования</h3>
 
       <div className={styles.belts}>
-        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/10.png' width={240} height={180}/></div></Link>
-        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/9.png' width={240} height={180} /></div></Link>
-        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/8.png' width={240} height={180} /></div></Link>
+        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/10.png' width={240} height={180} alt="Белый пояс"/></div></Link>
+        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/9.png' width={240} height={180} alt="Бело-желтый пояс"/></div></Link>
+        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/8.png' width={240} height={180} alt="Желтый пояс"/></div></Link>
       </div>
 
       <div className={styles.belts}>
-        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/7.png' width={240} height={180} /></div></Link>
-        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/6.png' width={240} height={180} /></div></Link>
-        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/5.png' width={240} height={180} /></div></Link>
+        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/7.png' width={240} height={180} alt="Желто-зелёный пояс"/></div></Link>
+        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/6.png' width={240} height={180} alt="Зелёный пояс"/></div></Link>
+        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/5.png' width={240} height={180} alt="Сине-зелёный пояс"/></div></Link>
       </div>
 
       <div className={styles.belts}>
-        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/4.png' width={240} height={180} /></div></Link>
-        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/3.png' width={240} height={180} /></div></Link>
-        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/2.png' width={240} height={180} /></div></Link>
+        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/4.png' width={240} height={180} alt="Синий пояс"/></div></Link>
+        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/3.png' width={240} height={180} alt="Сине-красный пояс"/></div></Link>
+        <Link href={'https://tkdrussia.ru/wp-content/uploads/2022/03/Приложение-№4-Программа-приема-аттестац-эк.-10-1-гыпы.pdf'}><div className={styles.belt}><Image src='/img/01/belttest/2.png' width={240} height={180} alt="Красный пояс"/></div></Link>
       </div>
 
     <p>	Для определения степени мастерства тхэквондистам предлагается показать свои знания, умения и навыки, полученные в результате учебно-тренировочного процесса.  Оцениваются теоретические знания, техническая подготовленность, физическая подготовленность и испытания силы удара. В программе представлены аттестационные требования в соответствии с возрастающей сложностью требований. </p>
