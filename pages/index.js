@@ -5,6 +5,7 @@ import Slider from '../components/mainpage_slider/Mainpage_slider'
 import NewsBlock from '../components/03-news/newsIndex'
 import Link from 'next/link'
 import ArticlesBlock from '../components/05-taekwondo/articles/articlesIndex'
+import Banner from '../components/mainpage_banner/Mainpage_banner'
 
 const Home = () => (
   <>
@@ -21,6 +22,7 @@ const Home = () => (
       <li>копии свидетельства о рождении и полиса ОМС (обязательного медицинского страхования);</li>
       <li>страховой полис от несчастных случаев (с минимальной страховой суммой 10,000 рублей).</li>
     </ul>
+    <Banner />
     <Link href='/08-athlets' className='link_h4'><h4>Лучшие спортсмены</h4></Link>
     
   <Slider />
