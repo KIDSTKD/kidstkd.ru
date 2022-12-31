@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 
 }
 
@@ -14,6 +14,9 @@
   padding-left: 30px;
   padding-top: 60px;
   transition: all 0.3s ease;
+
+  -webkit-filter: drop-shadow(3px 5px 5px #434546);
+  filter: drop-shadow(3px 5px 5px #434546);
 
 }
 
