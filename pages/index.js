@@ -5,7 +5,6 @@ import Slider from '../components/mainpage_slider/Mainpage_slider'
 import NewsBlock from '../components/03-news/newsIndex'
 import Link from 'next/link'
 import ArticlesBlock from '../components/05-taekwondo/articles/articlesIndex'
-import Banner from '../components/mainpage_banner/Mainpage_banner'
 
 const Home = () => (
   <>
@@ -22,9 +21,7 @@ const Home = () => (
       <li>копии свидетельства о рождении и полиса ОМС (обязательного медицинского страхования);</li>
       <li>страховой полис от несчастных случаев (с минимальной страховой суммой 10,000 рублей).</li>
     </ul>
-    <Banner />
     <Link href='/08-athlets' className='link_h4'><h4>Лучшие спортсмены</h4></Link>
-    
   <Slider />
   <p>Мы находимся по адресу ул. Ленина 41 (фитнес-клуб «Taekwondo-Land»). Занятия проводят тренеры-инструкторы федерации: Салатский Станислав Вадимович (Мастер Спорта РФ, 2ой дан), Ким Виктория Алексеевна (Мастер Спорта РФ, 4ый дан). Дополнительную информацию можно уточнить по телефону - <a href="tel:+79644432986">+7(964)443 29 86</a>.</p>
     <Link href='/05-taekwondo' className='link_h4'><h4>Что такое тхэквондо?</h4></Link>
