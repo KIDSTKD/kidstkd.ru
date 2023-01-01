@@ -9,7 +9,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'bebas_neue_regularregular';
   src: url('../src/font/bebasneue_regular-webfont.eot');
@@ -21,7 +20,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'exo_2regular_condensed';
   src: url('../src/font/exo2-regularcondensed-webfont.eot');
@@ -33,7 +31,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 html,
 body {
   padding: 0;
