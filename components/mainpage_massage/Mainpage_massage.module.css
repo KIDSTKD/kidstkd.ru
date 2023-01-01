@@ -3,6 +3,7 @@
   background-color: var(--deepblue);
   padding: 30px;
 
+
 }
 
 .header {
@@ -15,6 +16,29 @@
 
 
 
+}
+
+.img {
+  width: auto;
+  height: 86px;
+  margin: 18px 18px 0px 18px;
+  transition: all 0.3s ease;
+
+}
+
+.img:hover {
+  height: 98px;
+  transition: all 0.3s ease;
+
+}
+
+.icons {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 
