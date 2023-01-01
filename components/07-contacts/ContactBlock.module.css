@@ -72,19 +72,19 @@ padding-bottom: 40px;
 @media screen and (orientation: portrait) {    
         .contact_block {
          display: grid;
-         grid-template-columns: 1fr;
+         grid-template-columns: 50px 1fr;
          grid-template-rows: 50px 30px 30px 1fr 380px;
          grid-template-areas: 
-         "name"
-         "address"
-         "etc"
-         "schedule" 
-         "map"; 
+         "logo name"
+         "address address"
+         "etc etc"
+         "schedule schedule" 
+         "map map"; 
         }
 
         .contact_logo {
-            display: none;
-        }
+            width: 50px;
+            height: 50px;        }
 
         .contact_schedule {
             grid-area: schedule;
