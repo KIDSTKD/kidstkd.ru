@@ -1,21 +1,14 @@
 .massage_block {
-
-  background-color: var(--deepblue);
   padding: 30px;
-
-
 }
 
 .header {
   margin: 0px;
   padding: 0px;
   text-align: center;
-  color: var(--textlight);
+  color: var(--textdark);
   font-family: bebas_neue_regularregular;
   font-size:2em;
-
-
-
 }
 
 .img {
@@ -41,6 +34,17 @@
   
 }
 
+@media screen and (orientation: portrait) {  
+  .massage_block {
+    background-color: var(--deepblue);
+  }
+
+  .header {
+
+    color: var(--textlight);
+
+  }
+}
 
 
 
