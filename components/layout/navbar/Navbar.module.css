@@ -61,7 +61,7 @@
     width: 36px;
     height: 36px;
 }
-.search:hover, .home_pressed {
+.search:hover, .search_pressed {
     opacity: .9;
     transform: scale(1.2);
     transition: all 0.3s ease;
@@ -79,7 +79,7 @@
     width: 36px;
     height: 36px;
 }
-.mail:hover, .home_pressed {
+.mail:hover, .mail_pressed {
     opacity: .7;
     transform: scale(1.2);
     transition: all 0.3s ease;
@@ -97,7 +97,7 @@
     width: 36px;
     height: 36px;
 }
-.inst:hover, .home_pressed {
+.inst:hover, .inst_pressed {
     opacity: .7;
     transform: scale(1.2);
     transition: all 0.3s ease;
@@ -115,7 +115,7 @@
     width: 36px;
     height: 36px;
 }
-.youtube:hover, .home_pressed {
+.youtube:hover, .youtube_pressed {
     opacity: .7;
     transform: scale(1.2);
     transition: all 0.3s ease;
