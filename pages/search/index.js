@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Heading from '../../components/Heading'
 import Search from '../../components/search/Search'
 
-const Search = () => (
+const Search01 = () => (
   <>
     <Head>
       <title>Тхэквондо в Уссурийске</title>
@@ -18,4 +18,4 @@ const Search = () => (
   </>
 )
 
-export default Search
+export default Search01
