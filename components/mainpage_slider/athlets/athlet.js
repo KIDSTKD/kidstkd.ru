@@ -1,6 +1,6 @@
 import styles from "../athlets/Athlet.module.css"
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 import AthletsData from "./AthletsData";
 
@@ -23,8 +23,8 @@ const Athlet = () => {
 
 
                 <Image className={styles.athlet_block__img} src={athletImg} alt={athletName} width={350} height={350} />
-                <Image className={styles.athlet_block__bg1} src={BG1} alt={athletName} />
-                <Image className={styles.athlet_block__bg2} src={BG2} alt={athletName} />
+                <div className={styles.athlet_block__bg1}><Image src={BG1} alt={athletName} /></div>
+                <div className={styles.athlet_block__bg2}><Image src={BG2} alt={athletName} /></div>
 
                 <h4 className={styles.athlet_block__name}>{athletName}</h4>
                 <h4 className={styles.athlet_block__etc}>{grade}, {title}</h4>

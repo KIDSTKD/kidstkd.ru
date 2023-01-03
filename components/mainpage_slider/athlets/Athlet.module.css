@@ -4,7 +4,7 @@
 	scroll-snap-align: start;
 	scroll-snap-stop: always;
 	flex-shrink: 0;
-
+  
   position: relative;
 
   margin-left: 5px;
@@ -42,7 +42,7 @@
 }
 
 .athlet_block__name {
-  position: relative;
+  position: absolute;
   top: 0px;
   width: 300px;
 
@@ -61,7 +61,7 @@
 
 .athlet_block__etc {
   position: absolute;
-  bottom: 0px;
+  bottom: 16px;
   width: 300px;
 
   line-height: 26px;
