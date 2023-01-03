@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang='ru'>
       <Head>
 
         <meta name="msapplication-TileColor" content="#255d98" />
