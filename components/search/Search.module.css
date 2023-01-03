@@ -34,29 +34,3 @@
     width: 36px;
     height: 36px;
 }
-
-  /* .header__icons {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 5px;
-    gap: 10px;
-  }
-
-  .search {
-    background: var(--deepblue);
-    border-radius: 50%;
-    cursor: pointer;
-
-    background-image: url("../../../src/icons/ic_search_filled.svg");
-    background-size: 30px;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 36px;
-    height: 36px;
-}
-.search:hover, .home_pressed {
-    opacity: .9;
-    transform: scale(1.2);
-    transition: all 0.3s ease;
-} */

@@ -1,0 +1,40 @@
+.login {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 5px 0px 5px;
+
+}
+
+.login p {
+    margin: 0px;
+    padding: 0px;
+    text-indent: 0px;
+
+}
+
+.login input {
+    flex: 2;
+    height: 30px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    font-family: exo_2regular_condensed;
+    font-size: 1em;
+    color: #393939;
+}
+
+.login_btn {
+    background-color: var(--deepblue);
+    border: none;
+    border-radius: 10px;
+    color: var(--textlight);
+    margin-top: 16px;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}

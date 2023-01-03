@@ -1,21 +1,21 @@
 import Head from 'next/head'
 
 import Heading from '../../components/Heading'
-import Search from '../../components/search/Search'
+import Login from '../../components/login/Login'
 
-const Search = () => (
+const Login01 = () => (
   <>
     <Head>
       <title>Тхэквондо в Уссурийске</title>
     </Head>
 
-    <Heading text="Поиск" />
+    <Heading text="Личный кабинет" />
 
 
-    <Search />
+    <Login />
 
 
   </>
 )
 
-export default Search
+export default Login01
