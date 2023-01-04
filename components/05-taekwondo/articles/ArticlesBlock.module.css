@@ -12,18 +12,21 @@
 
 
   width: 360px;
-  height: 380px;
+  height: 388px;
   padding: 0px;
   margin: 0px;
   margin-bottom: 10px;
   
   display: grid;
   grid-template-columns: 360px;
-  grid-template-rows: 240px 60px 80px;
+  grid-template-rows: 240px 68px 80px;
   grid-template-areas: 
   "img2"
   "header2"
   "p2";
+
+
+
 }
 
 .articles_img2 {
@@ -36,9 +39,14 @@
   padding: 0px;
 
 
+
 }
 .blog_image {
   object-fit: cover;
+  border-radius: 2px;
+
+  -webkit-filter: drop-shadow(3px 5px 5px #434546);
+  filter: drop-shadow(3px 5px 5px #434546);
 
 }
 .articles_header2 {
@@ -48,6 +56,9 @@
   text-align: center;
   margin: 0px;
   padding: 0px;
+  margin-top: 8px;
+
+
 
 
 
