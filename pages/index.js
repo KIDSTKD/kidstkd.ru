@@ -4,7 +4,9 @@ import Heading from '../components/Heading'
 import Slider from '../components/mainpage_slider/Mainpage_slider'
 import NewsBlock from '../components/03-news/newsIndex'
 import Link from 'next/link'
-import ArticlesBlock from '../components/05-taekwondo/articles/articlesIndex'
+
+
+
 
 const Home = () => (
   <>
@@ -30,8 +32,9 @@ const Home = () => (
     <p>Федерация тхэквондо Уссурийского городского округа занимается развитием Олимпийского вида спорта - тхэквондо на территории г. Уссурийска и других территорий округа. Помимо тренировочного процесса наша организация занимается проведением турниров и чемпионатов различного уровня, мы регулярно проводим семинары для тренеров, спортсменов и судей. Также спортсмены нашей федерации принимают участие и занимают призовые места на различных международных и Всероссийских соревнованиях.</p>
     <Link href='/03-news' className='link_h4'><h4>Новости</h4></Link>
   <NewsBlock />
-    <Link href='/05-taekwondo/articles' className='link_h4'><h4>Публикации</h4></Link>
-    <ArticlesBlock />
+    <Link href='/05-taekwondo/blog' className='link_h4'><h4>Публикации</h4></Link>
+
+    
 
 
   </>

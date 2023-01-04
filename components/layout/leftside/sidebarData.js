@@ -57,8 +57,8 @@ export const DocsLink = [
     {id:2, title2: "Федеральные законы", path2: "/02-docs/laws"},
     {id:3, title2: "Наградные приказы", path2: "/02-docs/02"},
     {id:4, title2: "Положение и протоколы", path2: "/02-docs/03"},
-    {id:5, title2: "Правила соревнований", path2: "/02-docs/04"},
-    {id:6, title2: "Секритариат, E-PSS", path2: "/02-docs/05"},
+    {id:5, title2: "Правила соревнований", path2: "/02-docs/rules"},
+    {id:6, title2: "Секритариат, E-PSS", path2: "/02-docs/pss"},
     {id:7, title2: "Прочее", path2: "/02-docs/other"},
 
 
@@ -90,5 +90,5 @@ export const TaekwondoLink = [
     {id:4, title2: "Правила соревнований", path2: "/05-taekwondo/rules"},
     {id:5, title2: "Базовая техника", path2: "/05-taekwondo/kibon"},
     {id:6, title2: "Пхумсэ", path2: "/05-taekwondo/poomsae"},
-    {id:7, title2: "Публикации", path2: "/05-taekwondo/articles"},
+    {id:7, title2: "Публикации", path2: "/05-taekwondo/blog"},
 ]

@@ -8,10 +8,6 @@ const ContactBlockDS246 = () => {
     return (
 
     <>
-
-
-
-
         <div className={styles.contact_block}>
             <div className={styles.contact_logo}>
                 <Image src={Logo} objectFit='contain' layout='fill' alt="Контакты" />

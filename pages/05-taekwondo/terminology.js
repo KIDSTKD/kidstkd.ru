@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import Heading from '../../components/Heading'
 
-const Taekwondo = () => (
+const Terminology = () => (
   <>
   <Head>
     <title>Терминология тхэквондо</title>
@@ -41,4 +41,4 @@ const Taekwondo = () => (
   </>
 )
 
-export default Taekwondo
+export default Terminology
