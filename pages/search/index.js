@@ -11,9 +11,9 @@ const Search01 = () => (
 
     <Heading text="Поиск" />
 
-
+    <div className='desktop_invisible'>
     <Search />
-
+    </div>
 
   </>
 )
