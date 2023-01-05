@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 
 
@@ -10,9 +11,14 @@ import matter from "gray-matter";
 import md from 'markdown-it';
 
 
-export default function Post({frontmatter, content}) {
 
-    const {title, date, place, description, bannerImage} = frontmatter
+
+export default function News({frontmatter, content}) {
+
+
+
+
+    const {title, date, place, description, bannerImage, gallary} = frontmatter
 
     return <>
        <Head>
@@ -28,8 +34,20 @@ export default function Post({frontmatter, content}) {
     </div>
 
         <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+
+        {gallary.map(({id, src, alt}) => (
+            
+            <Link key={id} href={src}> 
+              <div className={styles.image_gallary}>
+                <Image src={src} objectFit='cover' layout='fill' alt={alt}/>
+              </div>
+            </Link>
+      
+            ))}
+
     </>
 }
+
 
 export async function getStaticPaths() {
   const files = fs.readdirSync("posts/news");
