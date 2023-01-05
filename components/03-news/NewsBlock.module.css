@@ -1,3 +1,5 @@
+
+
 .news {
     width: 90%;
     height: 160px;
@@ -27,12 +29,11 @@
     font-family: bebas_neuelight;
     font-size: 28px;    
     color: var(--textdark);
-    padding-left: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 5px;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis; 
+    text-overflow: ellipsis;
   }
   .news_p {
     grid-area: p;

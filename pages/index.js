@@ -68,12 +68,12 @@ export default Home
 
 
 export async function getStaticProps(){
-  const files = fs.readdirSync('posts');
+  const files = fs.readdirSync('posts/blog');
   const filesRev = files.reverse();
   const files9 = filesRev.slice(-0,6)
   const posts = files9.map((fileName) => {
       const slug = fileName.replace('.md', '');
-      const readFile = fs.readFileSync(`posts/${fileName}`, 'utf-8');
+      const readFile = fs.readFileSync(`posts/blog/${fileName}`, 'utf-8');
       const { data: frontmatter } = matter(readFile);
 
       return {

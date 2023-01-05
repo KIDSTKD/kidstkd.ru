@@ -1,17 +1,13 @@
+import Image from 'next/image';
+
+import styles from '../articles/ArticlesBlock.module.css'
+
 import fs from 'fs';
 import matter from 'gray-matter';
-import Image from 'next/image';
-import Link from 'next/link';
 
-import styles from '../../components/05-taekwondo/articles/ArticlesBlock.module.css'
-
-
-
-// export default function Blog({posts}){
-
-    const Blog = ({posts}) => {
-
-    return <div className={styles.all}>
+const IndexBlog = () => {
+    return (
+<div className={styles.all}>
         {posts.map(post => {
             const {slug, frontmatter} = post
             const {title, bannerImage, description} = frontmatter
@@ -29,29 +25,33 @@ import styles from '../../components/05-taekwondo/articles/ArticlesBlock.module.
             </article>
         })}
     </div>
+    );
 }
 
-export default Blog;
+export default IndexBlog;
+
+
 
 
 
 export async function getStaticProps(){
-    const files = fs.readdirSync('posts/blog');
-    const filesRev = files.reverse();
-    const posts = filesRev.map((fileName) => {
-        const slug = fileName.replace('.md', '');
-        const readFile = fs.readFileSync(`posts/blog/${fileName}`, 'utf-8');
-        const { data: frontmatter } = matter(readFile);
+  const files = fs.readdirSync('posts');
+  const filesRev = files.reverse();
+  const files9 = filesRev.slice(-0,6)
+  const posts = files9.map((fileName) => {
+      const slug = fileName.replace('.md', '');
+      const readFile = fs.readFileSync(`posts/${fileName}`, 'utf-8');
+      const { data: frontmatter } = matter(readFile);
 
-        return {
-          slug,
-          frontmatter,
-        };
-    });
+      return {
+        slug,
+        frontmatter,
+      };
+  });
 
-    return {
-        props: {
-          posts,
-        },
-    };
+  return {
+      props: {
+        posts,
+      },
+  };
 }
