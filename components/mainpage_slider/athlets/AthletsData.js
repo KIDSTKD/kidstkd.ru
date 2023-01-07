@@ -4,7 +4,7 @@ const AthletsData = [
         athletName: 'Хван Александра',
         athletImg: '/img/athlets/khvana.png',
         grade: 'I разряд',
-        title: 'Подедетель Первенства России 2022 (технический комплекс Пхумсэ)',
+        title: 'Победитель Первенства России 2022 (технический комплекс Пхумсэ)',
         link: '/08-athlets'
     },
 

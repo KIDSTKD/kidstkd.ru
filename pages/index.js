@@ -74,14 +74,14 @@ export async function getStaticProps(){
 
 
   const posts = filesSliced.map((fileName) => {
-      const slug = fileName.replace('.md', '');
-      const readFile = fs.readFileSync(`posts/blog/${fileName}`, 'utf-8');
-      const { data: frontmatter } = matter(readFile);
-      return {
-        slug,
-        frontmatter,
-      };
-   
+    const slug = fileName.replace('.md', '');
+    const readFile = fs.readFileSync(`posts/blog/${fileName}`, 'utf-8');
+    const { data: frontmatter } = matter(readFile);
+    return {
+      slug,
+      frontmatter,
+    };
+
   });
 
 
