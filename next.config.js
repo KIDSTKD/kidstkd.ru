@@ -38,6 +38,12 @@ module.exports = {
         destination: '/05-taekwondo/kibon',
         permanent: false
       },
+
+      {
+        source: '/05-taekwondo/articles/:path*',
+        destination: '/posts/:path*',
+        permanent: false
+      },
     ]
   },
 }
