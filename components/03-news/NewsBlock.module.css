@@ -1,7 +1,7 @@
 
 
 .news {
-    width: 90%;
+    width: calc(100% - 10px);
     height: 160px;
     border-bottom-style: inset;
     border-bottom-color: #dceffd;
