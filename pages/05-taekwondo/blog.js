@@ -2,11 +2,18 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head';
 
 import styles from '../../components/05-taekwondo/articles/ArticlesBlock.module.css'
+import Heading from '../../components/Heading';
 
     const Blog = ({posts}) => {
-    return <div className={styles.all}>
+    return <>
+    <Head>
+    <title>Публикации</title>
+   </Head>
+    <Heading text="Публикации" />
+    <div className={styles.all}>
         {posts.map(post => {
             const {slug, frontmatter} = post
             const {title, bannerImage, description} = frontmatter
@@ -21,6 +28,7 @@ import styles from '../../components/05-taekwondo/articles/ArticlesBlock.module.
             </article>
         })}
     </div>
+    </>
 }
 export default Blog;
 

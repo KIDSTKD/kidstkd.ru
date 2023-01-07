@@ -1,136 +1,98 @@
 .all {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 10px;
   justify-content: space-evenly;
-
   overflow: hidden;
 }
 
 .articles2 {
 
-
-  width: 360px;
-  height: 388px;
   padding: 0px;
   margin: 0px;
   margin-bottom: 10px;
-
-
-  
   display: grid;
-  grid-template-columns: 360px;
-  grid-template-rows: 240px 68px 80px;
+  grid-template-rows: auto 68px 80px;
   grid-template-areas: 
   "img2"
   "header2"
   "p2";
-
-
-
 }
 
 .articles_img2 {
   grid-area: img2;
-  width: 360px;
-  height: 240px;
+  width: 100%;
+  aspect-ratio: 3 / 2;
   position: relative;
-
   margin: 0px;
   padding: 0px;
-
-
 
 }
 .blog_image {
   object-fit: cover;
   border-radius: 2px;
-
   -webkit-filter: drop-shadow(3px 5px 5px #434546);
   filter: drop-shadow(3px 5px 5px #434546);
 
 }
 .articles_header2 {
-  
   grid-area: header2;
   line-height: 30px;
   text-align: center;
   margin: 0px;
   padding: 0px;
   margin-top: 8px;
-
-
-
-
-
-
 }
 .articles_p2 {
-
   grid-area: p2;
   margin-left: 5px;
   overflow-y: hidden;
   text-indent: 0px;
-
-
-
-
   height: 80px;
-      line-height: 20px;
-      padding-left: 5px;
-      padding-right: 5px;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      margin: 0;
+  line-height: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0;
+}
 
+.articles_logo {
+    width: 321px;
+    height: 214px;
+    position: relative;
+    float: right;
+    margin: 5px;    
+}
 
-  }
+@media screen and (orientation: portrait) {  
 
+.all {
+    display: flex;
+    flex-wrap: wrap;  
+}
+.articles2 {
+    width: 100%;
+    height: calc(100vw * 0.66 + 140px);
+    margin-bottom: 8px; 
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 60px 80px;
+    grid-template-areas: 
+    "img2"
+    "header2"
+    "p2";
+}
 
+.articles_img2 {
+  height: calc(100vw * 0.66);
+}
 
+.articles_logo {
+  width: 100%;
+  height: calc(100vw * 0.666);
+}
 
-
-    .articles_logo {
-      width: 321px;
-      height: 214px;
-      position: relative;
-      float: right;
-      margin: 5px;
-    }
-
-    
-
-  
-    
-    
-
-    @media screen and (orientation: portrait) {  
-    
-      .articles2 {
-        width: 100%;
-        height: calc(100vw * 0.66 + 140px);
-
-        margin-bottom: 8px;
-        
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: auto 60px 80px;
-        grid-template-areas: 
-        "img2"
-        "header2"
-        "p2";
-      }
-
-      .articles_img2 {
-        width: 100%;
-        height: calc(100vw * 0.66);
-      }
-
-        .articles_logo {
-          width: 100%;
-          height: calc(100vw * 0.666);
-        }
-
-    }
+}
 
  
