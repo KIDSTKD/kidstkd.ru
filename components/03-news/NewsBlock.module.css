@@ -1,13 +1,14 @@
 
 
 .news {
-    width: calc(100% - 10px);
+    width: calc(100% - 15px);
     height: 160px;
     border-bottom-style: inset;
     border-bottom-color: #dceffd;
     padding-bottom: 8px;
     margin-bottom: 8px;
     margin-left: 10px;
+    margin-right: 5px;
     display: grid;
     grid-template-columns: 240px 1fr;
     grid-template-rows: 30px 1fr;
