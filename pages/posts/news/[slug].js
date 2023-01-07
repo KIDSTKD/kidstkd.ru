@@ -30,7 +30,7 @@ export default function News({frontmatter, content}) {
    </Head>
       <h1>{date} - {title}, {place}</h1>
     <div className={styles.news_logo}>
-        <Image src={bannerImage} fill={true} alt={title}/>
+        <Image className="img" src={bannerImage} fill={true} alt={title}/>
     </div>
 
         <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
@@ -39,7 +39,7 @@ export default function News({frontmatter, content}) {
             
             <Link key={id} href={src}> 
               <div className={styles.image_gallary}>
-                <Image src={src} objectFit='cover' layout='fill' alt={alt}/>
+                <Image className="img" src={src} fill={true} alt={alt}/>
               </div>
             </Link>
       

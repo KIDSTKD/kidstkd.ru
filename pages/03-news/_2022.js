@@ -9,22 +9,19 @@ import Link from 'next/link';
 import styles from '../../components/03-news/NewsBlock.module.css'
 
 
-
 const News = ({posts}) => {
 
   return  <>
   
   <Head>
-    <title>KIDSTKD - Новости 2023</title>
+    <title>KIDSTKD - Новости 2022</title>
    </Head>
-    <Heading text="Новости 2023" />
+    <Heading text="Новости 2022" />
 
-<div>
-
-      {posts.map(post => {
-          const {slug, frontmatter} = post
+    <div>
+      {posts.map(a => {
+          const {slug, frontmatter} = a
           const {title, date, place, bannerImage, description} = frontmatter
-
           return <article key={title}>
               
               <Link href={`/posts/news/${slug}`}>
@@ -37,17 +34,15 @@ const News = ({posts}) => {
               
           </article>
       })}
-  </div></>
-}
+    </div></>
+    }
 
 export default News;
-
-
 
 export async function getStaticProps(){
   const files = fs.readdirSync('posts/news');
   const filesRev = files.reverse();
-  const filesFiltred = filesRev.filter(date => date.includes(2023))
+  const filesFiltred = filesRev.filter(date => date.includes(2022))
   const posts = filesFiltred.map((fileName) => {
       const slug = fileName.replace('.md', '');
       const readFile = fs.readFileSync(`posts/news/${fileName}`, 'utf-8');

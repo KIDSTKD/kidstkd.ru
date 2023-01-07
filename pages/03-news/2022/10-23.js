@@ -3,7 +3,6 @@ import Image from "next/legacy/image";
 import styles from '../../../components/03-news/NewsBlock.module.css'
 import News22 from '../../../components/03-news/data/2022';
 
-
 let Event = News22.find(item => item.id == 13);
 let EventTitle = `${Event.date} - ${Event.title}, ${Event.place}`
 let EventURL = `https://kidstkd.ru${Event.link}`

@@ -4,7 +4,6 @@ import Link from 'next/link';
 import styles from '../../../components/03-news/NewsBlock.module.css'
 import News22 from '../../../components/03-news/data/2022';
 
-
 const Images = [
   { id: "01", src: "/img/03/2022/10/28/01.jpg", alt: "Кубок Приморского края 2022",},
   { id: "02", src: "/img/03/2022/10/28/02.jpg", alt: "Кубок Приморского края 2022",},

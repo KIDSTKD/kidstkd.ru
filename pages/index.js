@@ -6,13 +6,10 @@ import matter from 'gray-matter';
 import Heading from '../components/Heading'
 import Slider from '../components/mainpage_slider/Mainpage_slider'
 import NewsBlock from '../components/03-news/newsIndex'
-import Link from 'next/link'
 
+import Link from 'next/link'
 import Image from 'next/image';
 import styles from '../components/05-taekwondo/articles/ArticlesBlock.module.css'
-
-
-
 
 const Home = ({posts}) => (
   <>
@@ -37,7 +34,10 @@ const Home = ({posts}) => (
     <p>Тхэквондо – традиционное корейское единоборство, один из популярнейших видов спорта, в котором основой является не физическое превосходство, а техника. Также тхэквондо позволяет гармонично развивать как физические, так и духовные качества. Сегодня тхэквондо международный вид спорта, включенный в программу летних Олимпийских игр.</p>
     <p>Федерация тхэквондо Уссурийского городского округа занимается развитием Олимпийского вида спорта - тхэквондо на территории г. Уссурийска и других территорий округа. Помимо тренировочного процесса наша организация занимается проведением турниров и чемпионатов различного уровня, мы регулярно проводим семинары для тренеров, спортсменов и судей. Также спортсмены нашей федерации принимают участие и занимают призовые места на различных международных и Всероссийских соревнованиях.</p>
     <Link href='/03-news' className='link_h4'><h4>Новости</h4></Link>
-  <NewsBlock />
+
+
+<NewsBlock />
+
     <Link href='/05-taekwondo/blog' className='link_h4'><h4>Публикации</h4></Link>
 
 
@@ -70,21 +70,30 @@ export default Home
 export async function getStaticProps(){
   const files = fs.readdirSync('posts/blog');
   const filesRev = files.reverse();
-  const files9 = filesRev.slice(-0,6)
-  const posts = files9.map((fileName) => {
+  const filesSliced = filesRev.slice(-0,6);
+
+
+  const posts = filesSliced.map((fileName) => {
       const slug = fileName.replace('.md', '');
       const readFile = fs.readFileSync(`posts/blog/${fileName}`, 'utf-8');
       const { data: frontmatter } = matter(readFile);
-
       return {
         slug,
         frontmatter,
       };
+   
   });
 
+
+
+
+  
+
   return {
-      props: {
-        posts,
-      },
-  };
+    props: {
+      posts,
+    },
+
+};
 }
+

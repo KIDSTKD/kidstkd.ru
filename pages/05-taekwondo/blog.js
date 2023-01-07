@@ -8,7 +8,6 @@ import styles from '../../components/05-taekwondo/articles/ArticlesBlock.module.
 
 
 // export default function Blog({posts}){
-
     const Blog = ({posts}) => {
 
     return <div className={styles.all}>
@@ -55,3 +54,4 @@ export async function getStaticProps(){
         },
     };
 }
+
