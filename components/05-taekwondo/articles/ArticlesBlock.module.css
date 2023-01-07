@@ -4,6 +4,7 @@
   gap: 10px;
   justify-content: space-evenly;
   overflow: hidden;
+  padding: 0 5px 0 5px;
 }
 
 .articles2 {
