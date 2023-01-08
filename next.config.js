@@ -23,7 +23,7 @@ module.exports = {
 
       {
         source: '/pages/05/01/:path*',
-        destination: '/05-taekwondo/articles',
+        destination: '/05-taekwondo/blog',
         permanent: false
       },
 
