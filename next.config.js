@@ -44,6 +44,12 @@ module.exports = {
         destination: '/posts/:path*',
         permanent: false
       },
+
+      {
+        source: '/05-taekwondo/posts/',
+        destination: '/posts/05-taekwondo/blog',
+        permanent: false
+      },
     ]
   },
 }
