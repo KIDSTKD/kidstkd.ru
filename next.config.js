@@ -47,7 +47,7 @@ module.exports = {
 
       {
         source: '/posts',
-        destination: '/posts/05-taekwondo/blog',
+        destination: '/05-taekwondo/blog',
         permanent: false
       },
     ]
