@@ -6,9 +6,9 @@ import DocsBlockRegulations from '../../components/02-docs/DocsBlockRegulations'
 const About = () => (
   <>
   <Head>
-  <title>KIDSTKD - Прочее</title>
+  <title>KIDSTKD - Нормативные документы</title>
   </Head>
-  <Heading text="Прочее" />
+  <Heading text="Нормативные документы" />
   <DocsBlockRegulations />
   </>
 )
