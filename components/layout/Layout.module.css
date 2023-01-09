@@ -57,4 +57,27 @@
 
 }
 
+@media (max-width: 800) {  
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 56px;
+    grid-template-areas: 
+    "logo"
+    "main"
+    "mobile_footer";
+  }
+
+  .right_side {
+    display: none;
+  }
+
+  .main {
+      background-image: 
+      url(/img/top.svg);
+      background-repeat: no-repeat;
+      padding-bottom: 56px;
+    }
+
+}
+
 
