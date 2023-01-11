@@ -1,6 +1,10 @@
 import Head from 'next/head'
 
 import Heading from '../../components/Heading'
+import ContactBlockLenina41 from '../../components/07-contacts/contactBlockLenana41'
+import ContactBlockDS246 from '../../components/07-contacts/contactBlockDS246'
+import ContactBlockMikhailovka from '../../components/07-contacts/contactBlockMikhailovka'
+import ContactBlockMikhaylovkaDS from '../../components/07-contacts/contactBlockMikhaylovkaDS'
 
 const About = () => (
   <>
@@ -8,7 +12,10 @@ const About = () => (
     <title>KIDSTKD - Расписание занятий</title>
   </Head>
   <Heading text="Расписание занятий" />
-  <p>Уважаемые посетители сайта, данный раздел находится в разработке, в самое ближайшее время мы наполним его информацией. Приносим свои извинения, всю интересующую вас информацию вы можете получить по телефону <a href="tel:+79644432986">+7(964)443 29 86</a></p>
+  <ContactBlockLenina41 />
+  <ContactBlockDS246 />
+  <ContactBlockMikhailovka />
+  <ContactBlockMikhaylovkaDS />
   </>
 )
 
