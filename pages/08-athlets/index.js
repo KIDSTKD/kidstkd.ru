@@ -11,6 +11,8 @@ const Contacts = () => (
   <>
   <Head>
     <title>KIDSTKD - Лучшие спортсмены</title>
+    <meta name="description" content="Лучшие спортсмены" key="description"/>
+
   </Head>
   <Heading text="Лучшие спортсмены" />
 

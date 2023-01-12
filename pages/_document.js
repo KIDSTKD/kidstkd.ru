@@ -8,7 +8,7 @@ export default function Document() {
         <meta name="msapplication-TileColor" content="#255d98" />
         <meta name="theme-color" content="#255d98" /> 
         <meta name="description" content="Тхэквондо в Уссурийске" key="description"/>
-
+        
         <meta property="og:site_name" content="KIDSTKD - ТХЭКВОНДО в УССУРИЙСКЕ" key="sitename"/>
         <meta property="og:url" content="https://kidstkd.ru"  key="url" />
         <meta property="og:title" content="Тхэквондо в Уссурийске"  key="title" />

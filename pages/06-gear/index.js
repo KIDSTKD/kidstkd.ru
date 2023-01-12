@@ -8,6 +8,8 @@ const Gear = () => (
   <>
   <Head>
     <title>KIDSTKD - Экипировка</title>
+    <meta name="description" content="Экипировка" key="description"/>
+
   </Head>
   <Heading text="Экипировка" />
   <div className='image'>

@@ -15,6 +15,8 @@ const News = ({posts}) => {
   
   <Head>
     <title>KIDSTKD - Новости</title>
+    <meta name="description" content="Новости" key="description"/>
+
    </Head>
     <Heading text="Новости" />
 

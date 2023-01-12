@@ -12,6 +12,8 @@ const Contacts = () => (
   <>
   <Head>
     <title>KIDSTKD - Контакты</title>
+    <meta name="description" content="Контактная информация" key="description"/>
+
   </Head>
   <Heading text="Контакты" />
 

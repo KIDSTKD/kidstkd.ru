@@ -12,6 +12,8 @@ const Calendar = () => (
   <>
   <Head>
     <title>KIDSTKD - Календарь</title>
+    <meta name="description" content="Календарь" key="description"/>
+
   </Head>
   <Heading text="Календарь 2023" />
 

@@ -8,6 +8,7 @@ import Docs03 from "./data/03.js"
 import Docs04 from "./data/04.js"
 import Docs05 from "./data/05.js"
 import Docs06 from "./data/06.js"
+import DocsReg from "./data/Regulations.js"
 
 let Docs01Sliced = Docs01.slice(-0,2)
 let Docs02Sliced = Docs02.slice(-0,2)
@@ -15,6 +16,7 @@ let Docs03Sliced = Docs03.slice(-0,2)
 let Docs04Sliced = Docs04.slice(-0,2)
 let Docs05Sliced = Docs05.slice(-0,2)
 let Docs06Sliced = Docs06.slice(-0,2)
+let DocsRegSliced = DocsReg.slice(-0,2)
 
 
 
@@ -22,6 +24,18 @@ const DocsBlockIndex = () => {
     return (
        
         <>    
+        <Link href='../02-docs/regulations'><h2>Нормативные документы</h2></Link>
+        {DocsRegSliced.map(({id, img, p, etc, link}) => (
+            <Link key={id} href={link}> 
+
+                <div className={styles.docs}>
+                <div className={styles.docs_img}><Image src={img} width={75} height={75}  alt={p}/></div>
+            <div className={styles.docs_1line}>{p}</div> 
+            <div className={styles.docs_2line}>{etc}</div> 
+                </div>
+
+            </Link>
+        ))}
 
         <Link href='../02-docs/laws'><h2>Федеральные законы</h2></Link>
         {Docs01Sliced.map(({id, img, p, number, date, link}) => (
