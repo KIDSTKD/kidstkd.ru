@@ -6,7 +6,7 @@ import Search from '../../components/search/Search'
 const Search01 = () => (
   <>
     <Head>
-      <title>Тхэквондо в Уссурийске</title>
+      <title>Поиск</title>
     </Head>
 
     <Heading text="Поиск" />

@@ -6,7 +6,7 @@ import Login from '../../components/login/Login'
 const Login01 = () => (
   <>
     <Head>
-      <title>Тхэквондо в Уссурийске</title>
+      <title>Личный кабинет</title>
     </Head>
 
     <Heading text="Личный кабинет" />
