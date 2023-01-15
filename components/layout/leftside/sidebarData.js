@@ -68,11 +68,11 @@ export const DocsLink = [
 ]
 
 export const NewsLink = [
-    {id:1, title2: "2022", path2: "/03-news/2022"},
-    {id:2, title2: "2021", path2: "/03-news/2021"},
-    {id:3, title2: "2020", path2: "/03-news/2020"},
-    {id:4, title2: "2019", path2: "/03-news/2019"},
-    {id:5, title2: "...архив...", path2: "/03-news/archive"},
+    {id:5, title2: "2023", path2: "/03-news/2023"},
+    {id:4, title2: "2022", path2: "/03-news/2022"},
+    {id:3, title2: "2021", path2: "/03-news/2021"},
+    {id:2, title2: "2020", path2: "/03-news/2020"},
+    {id:1, title2: "...архив...", path2: "/03-news/archive"},
 ]
 
 export const CalendarLink = [
