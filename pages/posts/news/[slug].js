@@ -42,7 +42,6 @@ export default function News({frontmatter, content}) {
                 <Image className="img" src={src} fill={true} alt={alt}/>
               </div>
             </Link>
-      
             ))}
 
     </>

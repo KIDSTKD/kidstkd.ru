@@ -63,6 +63,8 @@
     }
 
     .image_gallary {
+
+
       width: 33%;
       height: 240px;
       position: relative;
@@ -139,7 +141,7 @@
 
         .image_gallary {
           width: 100%;
-          height: 240px;
+          height: calc(vw * 0,56);
           position: relative;
           float: left;  
         }
