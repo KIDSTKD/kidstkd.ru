@@ -19,6 +19,7 @@ module.exports = {
       { source: '/pages/01/03_3.html', destination: '/01-about-us/belttest', permanent: false },
       { source: '/pages/01/03_2.html', destination: '/01-about-us/belttest', permanent: false },
       { source: '/pages/01/03_1.html', destination: '/01-about-us/belttest', permanent: false },
+      { source: '/pages/06', destination: '/06-gear', permanent: false },
       { source: '/pages/08', destination: '/07-contacts', permanent: false },
       { source: '/docs/:path*', destination: '/02-docs', permanent: false },
       { source: '/ads', destination: '/10-ads', permanent: false },

@@ -5,8 +5,6 @@ import RightSide from "./rightside/RightSide";
 import Footer from "./footer/Footer";
 import MobileFooter from "./mobilefooter/MobileFooter"
 
-
-
 import styles from "../layout/Layout.module.css"
 
 const Layout = ({ children }) => (
@@ -23,9 +21,6 @@ const Layout = ({ children }) => (
          <Footer />
          <MobileFooter />
       </div>
-
-
-
      </>
 );
 
