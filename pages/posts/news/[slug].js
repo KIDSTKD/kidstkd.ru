@@ -20,13 +20,16 @@ export default function News({frontmatter, content}) {
 
     const {title, date, place, description, bannerImage, gallary} = frontmatter
 
+    const img_host = 'https://kidstkd.ru'
+    const img_name = img_host + bannerImage
+
     return <>
        <Head>
     <title>{title}</title>
     <meta property="og:title" content={title}  key="title" />
     <meta property="og:type" content="news"  key="type" />
     <meta property="og:description" content={description}  key="description"/>
-    <meta property="og:image" content="kidstkd.ru/img/${bannerImage}"  key="image" />
+    <meta property="og:image" content={img_name}  key="image" />
    </Head>
       <h1>{date} - {title}, {place}</h1>
     <div className={styles.news_logo}>
