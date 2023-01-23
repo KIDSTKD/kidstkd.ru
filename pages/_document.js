@@ -7,15 +7,11 @@ export default function Document() {
 
         <meta name="msapplication-TileColor" content="#255d98" />
         <meta name="theme-color" content="#255d98" /> 
-        <meta name="description" content="Тхэквондо в Уссурийске" key="description"/>
-        
-        <meta property="og:site_name" content="KIDSTKD - ТХЭКВОНДО в УССУРИЙСКЕ" key="sitename"/>
-        <meta property="og:url" content="https://kidstkd.ru"  key="url" />
-        <meta property="og:title" content="Тхэквондо в Уссурийске"  key="title" />
-        <meta property="og:type" content="website"  key="type" />
-        <meta property="og:description" content="Мы приглашаем детей от 4 лет на занятия олимпийским видом спорта. Занятия проходят в мини-группах детей одного возраста, что обеспечивает положительный результат занятий. Занятия охватывают все аспекты тхэквондо, и включают в себя базовую подготовку, обучение ударной технике, обучение техническому комплексу пхумсэ."  key="description"/>
-        <meta property="og:image" content="https://kidstkd.ru/img/logo_black.png"  key="image" />
-           
+
+        <meta name="keywords" content="тхэквондо, тхэквондо в уссурийске, тхэквондо для детей, секции для детей, детский спорт, taekwondo" />
+
+
+
       </Head>
       <body>
         <Main />
