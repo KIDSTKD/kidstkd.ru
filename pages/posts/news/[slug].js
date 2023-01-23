@@ -26,7 +26,7 @@ export default function News({frontmatter, content}) {
     <meta property="og:title" content={title}  key="title" />
     <meta property="og:type" content="news"  key="type" />
     <meta property="og:description" content={description}  key="description"/>
-    <meta property="og:image" content={bannerImage}  key="image" />
+    <meta property="og:image" content="kidstkd.ru/img/${bannerImage}"  key="image" />
    </Head>
       <h1>{date} - {title}, {place}</h1>
     <div className={styles.news_logo}>
