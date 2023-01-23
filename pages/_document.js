@@ -4,19 +4,13 @@ export default function Document() {
   return (
     <Html lang='ru'>
       <Head>
-
         <meta name="msapplication-TileColor" content="#255d98" />
         <meta name="theme-color" content="#255d98" /> 
-
         <meta name="keywords" content="тхэквондо, тхэквондо в уссурийске, тхэквондо для детей, секции для детей, детский спорт, taekwondo" />
-
-
-
       </Head>
       <body>
         <Main />
         <NextScript />
-
         <script
             dangerouslySetInnerHTML={{
               __html: `

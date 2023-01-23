@@ -2,33 +2,20 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-
-
-import styles from '../../../components/03-news/NewsBlock.module.css'
-
 import fs from "fs";
 import matter from "gray-matter";
 import md from 'markdown-it';
 
-
-
+import styles from '../../../components/03-news/NewsBlock.module.css'
 
 export default function News({frontmatter, content}) {
 
-
-
-
     const {title, date, place, description, bannerImage, gallary} = frontmatter
-
-    const img_host = 'https://kidstkd.ru'
-    const img_name = img_host + bannerImage
-
+    const img_name = 'https://kidstkd.ru' + bannerImage
     return <>
        <Head>
     <title>{title}</title>
-
     <meta name="description" content={description} />
-
     <meta property="og:title" content={title}  key="title" />
     <meta property="og:type" content="news"  key="type" />
     <meta property="og:description" content={description}  key="description"/>
@@ -38,21 +25,16 @@ export default function News({frontmatter, content}) {
     <div className={styles.news_logo}>
         <Image className="img" src={bannerImage} fill={true} alt={title}/>
     </div>
-
         <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-
         {gallary.map(({id, src, alt}) => (
-            
             <Link key={id} href={src}> 
               <div className={styles.image_gallary}>
                 <Image className="img" src={src} fill={true} alt={alt}/>
               </div>
             </Link>
             ))}
-
     </>
 }
-
 
 export async function getStaticPaths() {
   const files = fs.readdirSync("posts/news");
