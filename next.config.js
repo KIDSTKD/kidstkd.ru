@@ -44,11 +44,6 @@ module.exports = {
         permanent: false
       },
 
-      { source: '/03-news/2022/:path*', destination: '/03-news/2022', permanent: false },
-      { source: '/03-news/2021/:path*', destination: '/03-news/2021', permanent: false },
-      { source: '/03-news/2020/:path*', destination: '/03-news/2020', permanent: false },
-      { source: '/03-news/2019/:path*', destination: '/03-news/2019', permanent: false },
-
       {
         source: '/posts',
         destination: '/05-taekwondo/blog',
