@@ -1,4 +1,20 @@
 const Docs05 = [
+    { 
+        id: 7, 
+        img: '/img/02/05/daedo.png', 
+        p: 'Daedo GEN2 Release, Win64', 
+        date: '17.11.2022',
+        number: '3.2.4',
+        link: 'https://t.me/kidstkdru/40'
+    },
+    { 
+        id: 6, 
+        img: '/img/02/05/daedo.png', 
+        p: 'Daedo GEN2 Release, Win32', 
+        date: '17.11.2022',
+        number: '3.2.4',
+        link: 'https://t.me/kidstkdru/39'
+    },
 
     { 
         id: 6, 
