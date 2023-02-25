@@ -49,7 +49,6 @@ export async function getStaticProps(){
       const slug = fileName.replace('.md', '');
       const readFile = fs.readFileSync(`posts/news/${fileName}`, 'utf-8');
       const { data: frontmatter } = matter(readFile);
-
       return {
         slug,
         frontmatter,
