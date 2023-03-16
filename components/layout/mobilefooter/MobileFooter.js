@@ -28,8 +28,6 @@ const MobileFooter = () => {
     return (
         
         <>
-            
-
             <div className={styles.mobile_footer}>
                 <div className={styles.menu}>
                     <div className={styles.hidden_menu}>
