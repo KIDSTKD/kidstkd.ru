@@ -31,6 +31,9 @@
 .blog_image {
   object-fit: cover;
   border-radius: 2px;
+}
+
+.blog_image:hover {
   -webkit-filter: drop-shadow(3px 5px 5px #434546);
   filter: drop-shadow(3px 5px 5px #434546);
 

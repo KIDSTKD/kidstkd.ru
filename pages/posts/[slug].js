@@ -4,7 +4,7 @@ import md from 'markdown-it';
 
 import styles from '../../components/05-taekwondo/articles/ArticlesBlock.module.css'
 
-
+import Head from "next/head";
 import Image from "next/image";
 
 export default function Post({frontmatter, content}) {
