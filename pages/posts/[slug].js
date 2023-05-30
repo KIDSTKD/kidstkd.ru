@@ -9,9 +9,20 @@ import Image from "next/image";
 
 export default function Post({frontmatter, content}) {
 
-    const {title, bannerImage} = frontmatter
+
+    const {title, bannerImage, description} = frontmatter
+    const img_name = 'https://kidstkd.ru' + bannerImage
 
     return <main>
+
+    <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta property="og:title" content={title}  key="title" />
+        <meta property="og:type" content="posts"  key="type" />
+        <meta property="og:description" content={description}  key="description"/>
+        <meta property="og:image" content={img_name}  key="image" />
+      </Head>
         <div className={styles.articles_logo}><Image src={bannerImage} fill='true' alt={title}/></div>
         <h1>{title}</h1>
 
